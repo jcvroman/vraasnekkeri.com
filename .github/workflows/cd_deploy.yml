@@ -27,12 +27,13 @@ jobs:
 
       # Deploys via sftp to server.
       - name: Deploy
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        id: upload
+        uses: Creepios/sftp-action@v1.0.3
         with:
+          host: 'vraasnekkeri.com'
+          port: 22
           username: 'vraasnek'
-          server: 'vraasnekkeri.com'
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: './Output/sitemap.xml'
-          remote_path: '/home1/vraasnek/public_ftp'
-          sftp_only: 'yes'
-          sftpArgs: '-o ConnectTimeout=5'
+          password: 'Braasint!122'
+          # privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+          localPath: './Output/sitemap.xml'
+          remotePath: '/home1/vraasnek/public_ftp/'
