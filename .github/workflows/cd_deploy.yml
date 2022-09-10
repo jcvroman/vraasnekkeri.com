@@ -34,4 +34,5 @@ jobs:
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './Output/sitemap.xml'
           remote_path: '/home1/vraasnek/public_ftp'
+          sftp_only: 'yes'
           sftpArgs: '-o ConnectTimeout=5'
