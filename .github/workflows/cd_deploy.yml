@@ -14,24 +14,24 @@ on:
   workflow_dispatch:
 
 # Jobs:
-  # This workflow contains a single job called "deploy_job"
-  deploy_job:
+  # This workflow contains a single job called "Deploy"
+  Deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks out your repository under $GITHUB_WORKSPACE.
       - name: Checkout
-      uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       # Deploys via sftp to server.
       - name: Deploy
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-        username: 'vraasnek'
-        server: 'vraasnekkeri.com'
-        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        local_path: './Output/sitemap.xml'
-        remote_path: '/home1/vraasnek/public_ftp'
-        sftpArgs: '-o ConnectTimeout=5'
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: 'vraasnek'
+          server: 'vraasnekkeri.com'
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './Output/sitemap.xml'
+          remote_path: '/home1/vraasnek/public_ftp'
+          sftpArgs: '-o ConnectTimeout=5'
