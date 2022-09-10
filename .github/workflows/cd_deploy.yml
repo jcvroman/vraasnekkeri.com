@@ -36,4 +36,4 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           # privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
           localPath: './Output/sitemap.xml'
-          remotePath: '/home1/vraasnek/public_ftp/'
+          remotePath: './public_ftp/'
