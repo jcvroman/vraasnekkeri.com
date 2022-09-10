@@ -33,8 +33,8 @@ jobs:
           host: 'vraasnekkeri.com'
           port: 22
           username: 'vraasnek'
-          # password: ${{ secrets.SSH_PASSWORD }}
-          privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
-          passphrase: ''
+          password: ${{ secrets.SSH_PASSWORD }}
+          # privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+          # passphrase: ''
           localPath: './Output/sitemap.xml'
           remotePath: './public_ftp/'
