@@ -51,5 +51,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: './Output/*'
+          local_path: './Output/index.html'
           remote_path: './public_ftp'
