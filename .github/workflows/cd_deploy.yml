@@ -30,11 +30,11 @@ jobs:
         id: upload
         uses: Creepios/sftp-action@v1.0.3
         with:
-          host: 'vraasnekkeri.com'
-          port: 22
-          username: 'ftp_html'
+          host: ${{ secrets.SSH_HOST }}
+          port: ${{ secrets.SSH_PORT }}
+          username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           # privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
-          # passphrase: ''
+          # passphrase: ${{ secrets.SSH_PASSPHRASE }}
           localPath: './Output/sitemap.xml'
-          remotePath: './'
+          remotePath: './public_ftp/'
