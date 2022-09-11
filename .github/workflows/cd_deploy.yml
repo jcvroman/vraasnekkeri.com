@@ -45,9 +45,9 @@ jobs:
         with:
           server: ${{ secrets.SSH_HOST }}
           port: ${{ secrets.SSH_PORT }}
-          sftp_only: true
+          sftp_only: false
           sftpArgs: '-o ConnectTimeout=5'
-          delete_remote_files: true
+          delete_remote_files: true     # This is not working. Likely since no ssh access for this account.
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
