@@ -46,9 +46,9 @@ jobs:
           server: ${{ secrets.SSH_HOST }}
           port: ${{ secrets.SSH_PORT }}
           sftp_only: true
+          sftpArgs: '-o ConnectTimeout=5'
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          # privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
-          # passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          local_path: './Output/sitemap.xml'
-          remote_path: './public_ftp/'
+          # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './Output/*'
+          remote_path: './public_ftp'
