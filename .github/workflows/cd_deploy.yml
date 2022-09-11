@@ -32,7 +32,7 @@ jobs:
         with:
           host: 'vraasnekkeri.com'
           port: 22
-          username: 'vraasnek'
+          username: 'ftp_html'
           password: ${{ secrets.SSH_PASSWORD }}
           # privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
           # passphrase: ''
