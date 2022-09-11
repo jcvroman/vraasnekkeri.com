@@ -47,6 +47,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           sftp_only: true
           sftpArgs: '-o ConnectTimeout=5'
+          delete_remote_files: true
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
