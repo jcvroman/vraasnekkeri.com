@@ -4,25 +4,70 @@ name: cd-deploy-release
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow via a tag starting with 'v' (e.g. v2022.09.11.1411 ).
-  push:
-    tags:
-      - v*
+  # Triggers the workflow via a tag starting with 'v' (e.g. v1.0.0 ).
+#  push:
+#    tags:
+#      - v*
 
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
 
 # Jobs.
 jobs:
-  deploy:
-    # The type of runner that the job will run on
+  # calc git version.
+  calc-version:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.GitVersion.outputs.nuGetVersionV2 }}
+      commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+          # Use gitversion to determine next version (e.g. based on git tag for this release).
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v0.9.9
+        with:
+          versionSpec: 'x.x.x'
+
+      - name: Determine Version
+        id: gitversion
+        uses: gittools/actions/gitversion/execute@v0.9.9
+
+      - name: Display GitVersion outputs
+        run: |
+          echo "majorMinorPatch: ${{ steps.gitversion.outputs.majorMinorPatch }}"
+          echo "nuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
+          echo "commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}"
+
+  # deploy to server via sftp.
+  deploy:
+    runs-on: ubuntu-latest
+    needs: calc-version
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
       # Checks out your repository under $GITHUB_WORKSPACE.
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Display GitVersion outputs
+        run: |
+          echo "version: ${{ needs.calc-version.outputs.version }}"
+          echo "commitsSinceVersionSource: ${{ needs.calc-version.outputs.commitsSinceVersionSource }}"
+
+      - name: Create Release
+        id: create-release
+        uses: actions/create-release@v1
+        if: needs.calc-version.outputs.commitsSinceVersionSource > 0   # Only create a release, if commit change.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}             # This token is provided by Actions.
+        with:
+          tag_name: ${{ needs.calc-version.outputs.version }}
+          release_name: Release ${{ needs.calc-version.outputs.version }}
 
       # Deploys via sftp to server.
       - name: Deploy
@@ -36,5 +81,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: './Output/index.html'
+          local_path: './Output/*'
           remote_path: './public_ftp'
