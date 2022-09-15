@@ -18,7 +18,8 @@ jobs:
   calc-version:
     runs-on: ubuntu-latest
     outputs:
-      version: ${{ steps.GitVersion.outputs.nuGetVersionV2 }}
+      version: ${{ steps.gitversion.outputs.majorMinorPatch }}
+      build-number: ${{ github.run_number }}
       commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}
 
     steps:
@@ -37,11 +38,11 @@ jobs:
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.9
 
-      - name: Display GitVersion outputs
+      - name: Display outputs
         run: |
-          echo "majorMinorPatch: ${{ steps.gitversion.outputs.majorMinorPatch }}"
-          echo "nuGetVersionV2: ${{ steps.gitversion.outputs.nuGetVersionV2 }}"
-          echo "commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}"
+          echo "version: ${{ version }}"
+          echo "build-number: ${{ build-number }}"
+          echo "commitsSinceVersionSource: ${{ commitsSinceVersionSource }}"
 
   # deploy to server via sftp.
   deploy:
@@ -54,9 +55,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Display GitVersion outputs
+      - name: Display outputs
         run: |
           echo "version: ${{ needs.calc-version.outputs.version }}"
+          echo "build-number: ${{ needs.calc-version.outputs.build-number }}"
           echo "commitsSinceVersionSource: ${{ needs.calc-version.outputs.commitsSinceVersionSource }}"
 
       - name: Create Release
