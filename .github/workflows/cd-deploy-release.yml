@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.gitversion.outputs.majorMinorPatch }}
-      build-number: ${{ env.BUILD_NUMBER }}
+      build-number: ${{ github.run_number }}
       commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}
 
     steps:
@@ -37,12 +37,6 @@ jobs:
       - name: Determine Version
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.9
-
-      - name: Adjust build number
-        id: buildnumber
-        run: |
-          echo BUILD_NUMBER_SEED = 0
-          echo BUILD_NUMBER = ($($env.BUILD_NUMBER_SEED)) + ($($github.run_number))
 
   # deploy to server via sftp.
   deploy:
