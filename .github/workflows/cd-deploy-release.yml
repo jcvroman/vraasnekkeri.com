@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.gitversion.outputs.majorMinorPatch }}
-      build-number: ${{ github.run_number + steps.buildnumber.build_number_seed }}
+      build-number: ${{ steps.buildnumber.build_number }}
       commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}
 
     steps:
@@ -42,6 +42,7 @@ jobs:
         id: buildnumber
         run: |
           $build_number_seed = 0
+          $build_number = ($build_number_seed + $github.run_number)
 
   # deploy to server via sftp.
   deploy:
