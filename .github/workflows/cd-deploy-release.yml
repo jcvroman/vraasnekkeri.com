@@ -38,12 +38,6 @@ jobs:
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.9
 
-      - name: Display outputs
-        run: |
-          echo "version: ${{ version }}"
-          echo "build-number: ${{ build-number }}"
-          echo "commitsSinceVersionSource: ${{ commitsSinceVersionSource }}"
-
   # deploy to server via sftp.
   deploy:
     runs-on: ubuntu-latest
@@ -55,7 +49,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Display outputs
+      - name: Display incoming need outputs
         run: |
           echo "version: ${{ needs.calc-version.outputs.version }}"
           echo "build-number: ${{ needs.calc-version.outputs.build-number }}"
