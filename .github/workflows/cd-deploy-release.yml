@@ -62,8 +62,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}             # This token is provided by Actions.
         with:
-          tag_name: ${{ needs.calc-version.outputs.version }}
-          release_name: Release ${{ needs.calc-version.outputs.version }}
+          tag_name: ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
+          release_name: Release ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
 
       # Deploys via sftp to server.
       - name: Deploy
@@ -71,7 +71,7 @@ jobs:
         with:
           server: ${{ secrets.SSH_HOST }}
           port: ${{ secrets.SSH_PORT }}
-          sftp_only: false
+          sftp_only: true
           sftpArgs: '-o ConnectTimeout=5'
           delete_remote_files: false         # This is not working. Likely since no ssh access for this account.
           username: ${{ secrets.SSH_USERNAME }}
