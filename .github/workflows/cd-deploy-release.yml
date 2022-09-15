@@ -55,11 +55,6 @@ jobs:
           echo "build-number: ${{ needs.calc-version.outputs.build-number }}"
           echo "commitsSinceVersionSource: ${{ needs.calc-version.outputs.commitsSinceVersionSource }}"
 
-      - name: Set release variables
-        run: |
-          echo TAG_NAME = ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
-          echo RELEASE_NAME = Release ${{ env.TAG_NAME }}
-
       - name: Create Release
         id: create-release
         uses: actions/create-release@v1
@@ -67,8 +62,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}             # This token is provided by Actions.
         with:
-          tag_name:  ${{ env.TAG_NAME }}
-          release_name: ${{ env.RELEASE_NAME }}
+          tag_name: ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
+          release_name: Release ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
 
       # Deploys via sftp to server.
       - name: Deploy
