@@ -41,7 +41,7 @@ jobs:
       - name: Determine Build Number
         id: buildnumber
         run: |
-          $build_number = ((100 + $github.run_number))
+          build_number = ((100 + $github.run_number))
           echo $build_number
 
   # deploy to server via sftp.
