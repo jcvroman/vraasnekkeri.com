@@ -12,10 +12,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
 
-env:
-  build_number: ${{ github.run_number }}
-  build_number_offset: 100
-
 # Jobs.
 jobs:
   # calc git version.
@@ -44,9 +40,12 @@ jobs:
 
       - name: Determine Build Number
         id: buildnumber
+        env:
+          build_number: ${{ github.run_number }}
+          build_number_offset: 100
         run: |
-          $build_number = ${{ github.run_number }} + ${{ env.build_number_offset }}
-          echo "::set-output name=build_number::$build_number"
+          $build_number = $(($github.run_number + $env.build_number_offset))
+          # echo "::set-output name=build_number::$build_number"
           echo "build_number: ${{ env.build_number }}"
 
   # deploy to server via sftp.
