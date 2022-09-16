@@ -38,6 +38,12 @@ jobs:
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.9
 
+      - name: Determine Build Number
+        id: buildnumber
+        run: |
+          $build_number = ((100 + $github.run_number))
+          echo $build_number
+
   # deploy to server via sftp.
   deploy:
     runs-on: ubuntu-latest
