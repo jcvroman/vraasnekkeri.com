@@ -1,0 +1,64 @@
+# Continuous Delivery (CD):
+#   Bump version and tag.
+name: cd-version-tag
+
+# Controls when the workflow will run.
+on:
+  push:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab.
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '1.0.1'
+        required: true
+      message:
+        description: 'v1.0.1'
+        required: true
+
+jobs:
+  # calc git version.
+  calc-version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.gitversion.outputs.majorMinorPatch }}
+      commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Use gitversion to determine next version.
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v0.9.9
+        with:
+          versionSpec: 'x.x.x'
+
+      - name: Determine Version
+        id: gitversion
+        uses: gittools/actions/gitversion/execute@v0.9.9
+
+  # create tag for version
+  create-tag:
+    runs-on: ubuntu-latest
+    needs: calc-version
+
+    steps:
+      # Checks out your repository under $GITHUB_WORKSPACE.
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Display incoming need outputs
+        run: |
+          echo "version: ${{ needs.calc-version.outputs.version }}"
+          echo "commitsSinceVersionSource: ${{ needs.calc-version.outputs.commitsSinceVersionSource }}"
+
+      - name: Create Tag
+        uses: negz/create-tag@v1
+        with:
+          version: ${{ needs.calc-version.outputs.version }}
+          message: v${{ needs.calc-version.outputs.version }}
+          token: ${{ secrets.GITHUB_TOKEN }}            # This token is provided by Actions.
