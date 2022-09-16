@@ -32,6 +32,7 @@ jobs:
           fetch-depth: 0
 
       # Use gitversion to determine next version.
+      # NOTE: Configuration File: GitVersion.yml
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.9.9
         with:
