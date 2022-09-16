@@ -44,7 +44,7 @@ jobs:
           build_number: ${{ github.run_number }}
           build_number_offset: 100
         run: |
-          $build_number = $(($github.run_number + $env.build_number_offset))
+          $build_number = $(($env.build_number + $env.build_number_offset))
           # echo "::set-output name=build_number::$build_number"
           echo "build_number: ${{ env.build_number }}"
 
