@@ -42,7 +42,7 @@ jobs:
         id: buildnumber
         run: |
           build_number = $((100 + 11))
-          echo "build_number: "$build_number"
+          echo "build_number: $build_number"
 
   # deploy to server via sftp.
   deploy:
