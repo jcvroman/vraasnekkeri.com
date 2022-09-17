@@ -1,3 +1,11 @@
+# v1.0.39 - 2022-09-17
+## 🏗️ Build System
+- Remove deprecated workflows
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.0.38 - 2022-09-17
 ## 🧹 Chores
 - Update CHANGELOG.md
