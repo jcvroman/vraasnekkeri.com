@@ -1,3 +1,11 @@
+# v1.0.24 - 2022-09-17
+
+## Build System
+- Update path of CHANGELOG.md file
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.23 - 2022-09-17
 
 ## Build System
