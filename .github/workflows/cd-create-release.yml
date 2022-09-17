@@ -1,0 +1,24 @@
+# Continuous Delivery (CD):
+#   Create release from the changelog.
+name: cd-create-release
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab.
+  workflow_dispatch:
+
+# Jobs.
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Create GitHub release
+      - uses: taiki-e/create-gh-release-action@v1
+        with:
+          changelog: ./CHANGELOG.md
+          draft: true
+          token: ${{ secrets.GITHUB_TOKEN }}
