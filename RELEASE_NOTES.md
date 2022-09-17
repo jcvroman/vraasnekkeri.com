@@ -1,1 +1,1 @@
-
+- 6412dc8 chore: Update CHANGELOG.md
