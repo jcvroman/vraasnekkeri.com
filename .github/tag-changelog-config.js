@@ -1,14 +1,15 @@
 module.exports = {
+  // NOTE: The order in which the types appear also determines the order of the generated sections in the changelog.
   types: [
     { types: ["feat", "feature"], label: "🎉 New Features" },
     { types: ["fix", "bugfix"], label: "🐛 Bugfixes" },
     { types: ["improvements", "enhancement"], label: "🔨 Improvements" },
     { types: ["perf"], label: "🏎️ Performance Improvements" },
-    { types: ["build", "ci"], label: "🏗️ Build System" },
-    { types: ["refactor"], label: "🪚 Refactors" },
     { types: ["doc", "docs"], label: "📚 Documentation Changes" },
     { types: ["test", "tests"], label: "🔍 Tests" },
+    { types: ["refactor"], label: "🪚 Refactors" },
     { types: ["style"], label: "💅 Code Style Changes" },
+    { types: ["build", "ci"], label: "🏗️ Build System" },
     { types: ["chore"], label: "🧹 Chores" },
     { types: ["other"], label: "Other Changes" },
   ],
