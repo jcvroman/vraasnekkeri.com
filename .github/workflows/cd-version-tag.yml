@@ -79,6 +79,7 @@ jobs:
         uses: loopwerk/tag-changelog@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          config_file: .github/tag-changelog-config.js
           # exclude_types: other,perf
 
       - name: Read CHANGELOG.md
