@@ -24,7 +24,7 @@ jobs:
         uses: loopwerk/tag-changelog@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          exclude_types: other,perf
+          # exclude_types: other,perf
 
       - name: Read CHANGELOG.md
         id: package
