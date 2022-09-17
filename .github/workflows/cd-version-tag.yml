@@ -11,10 +11,10 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Tag version (e.g. 0.1.0)'
+        description: 'Tag version (e.g. v0.1.0)'
         required: true
       message:
-        description: 'Tag message (e.g. v0.1.0)'
+        description: 'Tag message (e.g. ci: Tag version as v0.1.0)'
         required: true
 
 jobs:
@@ -60,6 +60,6 @@ jobs:
       - name: Create Tag
         uses: negz/create-tag@v1
         with:
-          version: v${{ needs.calc-version.outputs.version }}
+          version: "v${{ needs.calc-version.outputs.version }}"
           message: "ci: Tag version as v${{ needs.calc-version.outputs.version }}"
           token: ${{ secrets.GITHUB_TOKEN }}            # This token is provided by Actions.
