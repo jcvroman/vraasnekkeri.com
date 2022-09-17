@@ -1,3 +1,11 @@
+# v1.0.22 - 2022-09-17
+
+## Build System
+- Add RELEASE_NOTES.md
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.21 - 2022-09-17
 
 ## Build System
