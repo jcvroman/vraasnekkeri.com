@@ -23,10 +23,11 @@ jobs:
 #          changelog_file: ./CHANGELOG.md
 
       - name: Generate Changelog
-        uses: Bullrich/generate-release-changelog@master
+        uses: scottbrenner/generate-changelog-action@master
         id: changelog
-        env:
-          REPO: ${{ github.repository }}
+        with:
+          from-tag: v1.0
+          to-tag: HEAD
 
       # Overwrite as writing new release notes.
       - name: Write to RELEASE_NOTES.md
