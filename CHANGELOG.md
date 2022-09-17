@@ -1,3 +1,11 @@
+# v1.0.42 - 2022-09-17
+## 🏗️ Build System
+- Update create-releasenotes config file renderChangelog when no changes
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.0.41 - 2022-09-17
 ## 🧹 Chores
 - Update CHANGELOG.md
