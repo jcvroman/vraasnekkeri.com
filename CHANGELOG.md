@@ -1,3 +1,11 @@
+# v1.0.18 - 2022-09-17
+
+## Build System
+- Moved update changelog job after create tag
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.17 - 2022-09-17
 
 ## Chores
