@@ -61,5 +61,5 @@ jobs:
         uses: negz/create-tag@v1
         with:
           version: v${{ needs.calc-version.outputs.version }}
-          message: ci: Tag version: {{ needs.calc-version.outputs.version }}
+          message: "ci: Tag version: " ${{ needs.calc-version.outputs.version }}
           token: ${{ secrets.GITHUB_TOKEN }}            # This token is provided by Actions.
