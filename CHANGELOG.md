@@ -1,3 +1,12 @@
+# v1.0.35 - 2022-09-17
+## 🏗️ Build System
+- Reorder types for tag-changelog action config file
+- Add few types for tag-changelog
+- Add update-releasenotes job
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.34 - 2022-09-17
 ## 🏗️ Build System
 - Add config file for cd-version-tag workflow tag-changelog action
