@@ -4,8 +4,9 @@ name: cd-generate-changelog
 
 # Controls when the workflow will run.
 on:
-#  push:
-#    branches: [main]
+  push:
+    tags:
+      - v*
 
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
@@ -31,7 +32,7 @@ jobs:
         with:
           path: ./CHANGELOG.md
 
-      # Overwrite as writing to latest changelog than re-writing the existing file (i.e. the old changelogs).
+      # Overwrite as writing latest changelog than re-writing the existing file (i.e. the old changelogs).
       - name: Write to CHANGELOG.md
         uses: DamianReeves/write-file-action@master
         with:
