@@ -1,3 +1,9 @@
+# v1.0.38 - 2022-09-17
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.0.37 - 2022-09-17
 ## 🧹 Chores
 - Update RELEASE_NOTES.md
