@@ -1,3 +1,11 @@
+# v1.0.28 - 2022-09-17
+
+## Build System
+- Update create release from changelog workflow
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.27 - 2022-09-17
 
 ## Build System
