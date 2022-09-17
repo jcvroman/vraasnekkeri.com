@@ -1,3 +1,9 @@
+# v1.0.17 - 2022-09-17
+
+## Chores
+- Update CHANGELOG.md
+- Manually removed duplicates from CHANGELOG.md
+
 # v1.0.16 - 2022-09-17
 
 ## Build System
