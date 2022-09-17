@@ -1,3 +1,11 @@
+# v1.0.29 - 2022-09-17
+
+## Build System
+- Remove deprecated create release from changelog workflow
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.28 - 2022-09-17
 
 ## Build System
