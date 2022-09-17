@@ -1,4 +1,9 @@
 # GitVersion.yml
+#
+# Continuous Deployment is the process of checking into main, running all the tests and if everything goes
+# green it is automatically pushed to production.
+mode: ContinuousDeployment      # Version will increment each commit.
+
 # Setting the next-version property. This property only serves as a base version.
 next-version: 1.0.0
 
@@ -14,7 +19,6 @@ next-version: 1.0.0
 #
 # Configuration.
 # Conventional Commits Spec https://www.conventionalcommits.org/en/v1.0.0/
-mode: MainLine      # Every version to be created automatically on your main branch.
 major-version-bump-message: "^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\\([\\w\\s-]*\\))?(!:|:.*\\n\\n((.+\\n)+\\n)?BREAKING CHANGE:\\s.+)"
 minor-version-bump-message: "^(feat)(\\([\\w\\s-]*\\))?:"
 patch-version-bump-message: "^(build|chore|ci|docs|fix|perf|refactor|revert|style|test)(\\([\\w\\s-]*\\))?:"
