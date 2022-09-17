@@ -3,6 +3,11 @@
 ## Build System
 - Updated workflow_dispatch inputs descriptions
 
+# v1.0.14 - 2022-09-17
+
+## Build System
+- Updated workflow_dispatch inputs descriptions
+
 # v1.0.12 - 2022-09-17
 
 ## Build System
