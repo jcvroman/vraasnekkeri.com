@@ -1,3 +1,9 @@
+# v1.0.41 - 2022-09-17
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.0.40 - 2022-09-17
 ## 🏗️ Build System
 - Update config file for update-releasenotes job to include all type variants
