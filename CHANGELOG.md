@@ -1,3 +1,11 @@
+# v1.0.20 - 2022-09-17
+
+## Build System
+- Update update changelog job to need create tag job
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.18 - 2022-09-17
 
 ## Build System
