@@ -1,3 +1,8 @@
+# v1.0.16 - 2022-09-17
+
+## Build System
+- Added update changelog job
+
 # v1.0.15 - 2022-09-17
 
 ## Build System
