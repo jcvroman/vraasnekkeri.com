@@ -14,7 +14,7 @@ module.exports = {
     { types: ["other"], label: "Other Changes" },
   ],
 
-  excludeTypes: ["test", "refactor", "style", "build", "chore", "other"],
+  excludeTypes: ["test", "tests", "refactor", "style", "build", "ci", "cd", "chore", "other"],
 
   renderTypeSection: function (label, commits) {
     let text = `\n## ${label}\n`;
