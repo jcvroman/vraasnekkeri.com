@@ -67,6 +67,7 @@ jobs:
   # Update changelog.
   update-changelog:
     runs-on: ubuntu-latest
+    needs: create-tag
 
     steps:
       - name: Checkout
