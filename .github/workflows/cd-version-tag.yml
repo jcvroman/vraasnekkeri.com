@@ -65,7 +65,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}            # This token is provided by Actions.
 
   # Update changelog.
-  # NOTE: This updated changelog is not included in the above tag.
+  # NOTE: This updated changelog is not included in the above tag. But, it has the latest.
   update-changelog:
     runs-on: ubuntu-latest
     needs: create-tag
@@ -102,3 +102,43 @@ jobs:
           add: CHANGELOG.md
           message: "chore: Update CHANGELOG.md"
           # branch: main
+
+  # Update releasenotes.
+  # NOTE: This updated releasenotes is not included in the above tag. But, it has the latest.
+  update-releasenotes:
+    runs-on: ubuntu-latest
+    needs: create-tag
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Excluding non user types from the release notes.
+      # NOTE: For now, just manually edit release notes file as commits occur for this release.
+      - name: Create releasenotes text
+        id: releasenotes
+        uses: loopwerk/tag-changelog@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config_file: .github/tag-changelog-config.js
+          exclude_types: test,refactor,style,build,chore,other
+
+      - name: Read RELEASE_NOTES.md
+        id: package
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./RELEASE_NOTES.md
+
+      # Overwrite as writing latest releasenotes than re-writing the existing file (i.e. the old releasenotes).
+      - name: Write to RELEASE_NOTES.md
+        uses: DamianReeves/write-file-action@master
+        with:
+          path: ./RELEASE_NOTES.md
+          contents: ${{ steps.releasenotes.outputs.changelog }}${{ steps.package.outputs.content }}
+          write-mode: overwrite
+
+      - name: Commit and push RELEASE_NOTES.md
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: RELEASE_NOTES.md
+          message: "chore: Update RELEASE_NOTES.md"
