@@ -1,3 +1,14 @@
+# v1.0.23 - 2022-09-17
+
+## Build System
+- Add generate release notes from changelog workflow
+
+## Chores
+- Update CHANGELOG.md
+
+## Other Changes
+- Merge branch 'main' of https://github.com/jcvroman/vraasnekkeri.com
+
 # v1.0.22 - 2022-09-17
 
 ## Build System
