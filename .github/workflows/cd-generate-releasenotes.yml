@@ -16,22 +16,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Extract release notes
-        id: releasenotes
-        uses: ffurrer2/extract-release-notes@v1
+#      - name: Extract release notes
+#        id: releasenotes
+#        uses: ffurrer2/extract-release-notes@v1
+#        with:
+#          changelog_file: ./CHANGELOG.md
+
+      - name: Create release notes
+        uses: CSchoel/release-notes-from-changelog@v1
         with:
-          changelog_file: ./CHANGELOG.md
+          working-directory: ./
 
       # Overwrite as writing new release notes.
-      - name: Write to RELEASE_NOTES.md
-        uses: DamianReeves/write-file-action@master
-        with:
-          path: ./RELEASE_NOTES.md
-          contents: ${{ steps.releasenotes.outputs.release_notes }}
-          write-mode: overwrite
+#      - name: Write to RELEASE_NOTES.md
+#        uses: DamianReeves/write-file-action@master
+#        with:
+#          path: ./RELEASE_NOTES.md
+#          contents: ${{ steps.releasenotes.outputs.release_notes }}
+#          write-mode: overwrite
 
-      - name: Commit and push RELEASE_NOTES.md
+      - name: Commit and push RELEASE.md
         uses: EndBug/add-and-commit@v7
         with:
-          add: RELEASE_NOTES.md
-          message: "chore: Update RELEASE_NOTES.md"
+          add: RELEASE.md
+          message: "chore: Update RELEASE.md"
