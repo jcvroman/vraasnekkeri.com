@@ -6,7 +6,6 @@
 
 ## Chores
 - Update CHANGELOG.md
-- Update CHANGELOG.md
 
 # v1.0.14 - 2022-09-17
 
@@ -21,9 +20,6 @@
 # v1.0.12 - 2022-09-17
 
 ## Build System
-- Prepend v to version tag and change message
-- Prepend v to version tag and change message
-- Prepend v to version tag and change message
 - Prepend v to version tag and change message
 
 ## Chores
