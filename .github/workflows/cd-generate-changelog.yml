@@ -31,6 +31,7 @@ jobs:
         with:
           path: ./CHANGELOG.md
 
+      # Overwrite as writing to latest changelog than re-writing the existing file (i.e. the old changelogs).
       - name: Write to CHANGELOG.md
         uses: DamianReeves/write-file-action@master
         with:
