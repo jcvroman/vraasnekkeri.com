@@ -20,7 +20,7 @@ jobs:
         id: releasenotes
         uses: ffurrer2/extract-release-notes@v1
         with:
-          changelog_file: CHANGELOG.md
+          changelog_file: ./CHANGELOG.md
 
       # Overwrite as writing new release notes.
       - name: Write to RELEASE_NOTES.md
