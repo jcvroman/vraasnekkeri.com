@@ -1,3 +1,8 @@
+# v1.0.33 - 2022-09-17
+
+## Build System
+- Update package.json to valid json file
+
 # v1.0.31 - 2022-09-17
 
 ## Build System
