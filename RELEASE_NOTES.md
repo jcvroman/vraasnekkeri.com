@@ -1,3 +1,7 @@
+# v1.0.39 - 2022-09-17
+## 🏗️ Build System
+- Remove deprecated workflows
+
 # v1.0.38 - 2022-09-17
 
 
