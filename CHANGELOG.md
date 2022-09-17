@@ -1,3 +1,9 @@
+# v1.0.37 - 2022-09-17
+## 🧹 Chores
+- Update RELEASE_NOTES.md
+- Update CHANGELOG.md
+- Manually update RELEASE_NOTES.md
+
 # v1.0.36 - 2022-09-17
 ## 🏗️ Build System
 - Add config file for update-releasenotes
