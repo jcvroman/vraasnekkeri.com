@@ -1,3 +1,11 @@
+# v1.0.30 - 2022-09-17
+
+## Build System
+- Testing generate-release-changelog action
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.29 - 2022-09-17
 
 ## Build System
