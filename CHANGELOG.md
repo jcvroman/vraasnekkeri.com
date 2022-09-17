@@ -1,3 +1,13 @@
+# v1.0.15 - 2022-09-17
+
+## Build System
+- Updated jobs name
+- Exclude no types
+
+## Chores
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+
 # v1.0.14 - 2022-09-17
 
 ## Build System
