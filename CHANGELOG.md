@@ -1,3 +1,11 @@
+# v1.0.21 - 2022-09-17
+
+## Build System
+- Add note about update changelog job
+
+## Chores
+- Update CHANGELOG.md
+
 # v1.0.20 - 2022-09-17
 
 ## Build System
