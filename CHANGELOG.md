@@ -1,3 +1,11 @@
+# v1.0.36 - 2022-09-17
+## 🏗️ Build System
+- Add config file for update-releasenotes
+
+## 🧹 Chores
+- Update RELEASE_NOTES.md
+- Update CHANGELOG.md
+
 # v1.0.35 - 2022-09-17
 ## 🏗️ Build System
 - Reorder types for tag-changelog action config file
