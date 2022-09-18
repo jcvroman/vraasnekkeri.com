@@ -1,3 +1,10 @@
+# v1.0.43 - 2022-09-18
+## 🏗️ Build System
+- Remove deprecated package.json file
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.42 - 2022-09-17
 ## 🏗️ Build System
 - Update create-releasenotes config file renderChangelog when no changes
