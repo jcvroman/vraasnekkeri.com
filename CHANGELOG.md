@@ -1,3 +1,10 @@
+# v1.0.44 - 2022-09-19
+## 🏗️ Build System
+- Update to checkout by tag to deploy
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.43 - 2022-09-18
 ## 🏗️ Build System
 - Remove deprecated package.json file
