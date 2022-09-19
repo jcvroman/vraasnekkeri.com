@@ -1,3 +1,10 @@
+# v1.0.51 - 2022-09-19
+## 🏗️ Build System
+- Add workaround to fix read only file issue
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.50 - 2022-09-19
 ## 🏗️ Build System
 - Add back deploy step
