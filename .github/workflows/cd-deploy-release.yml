@@ -36,7 +36,9 @@ jobs:
         with:
           tag_name: ${{ github.event.inputs.version-tag }}
           release_name: "Release ${{ github.event.inputs.version-tag }}"
-          draft: true           # DEBUG: Testing.
+          body_path: ./RELEASE_NOTES.md
+          draft: true
+          prerelease: false
 
       # DEBUG: Testing.
       # Deploys via sftp to server.
