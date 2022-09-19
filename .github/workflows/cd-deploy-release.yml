@@ -4,88 +4,53 @@ name: cd-deploy-release
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow via a tag starting with 'v' (e.g. v1.0.0 ).
-#  push:
-#    tags:
-#      - v*
-
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
+    inputs:
+      version-tag:
+        description: 'Existing Version Tag to Deploy (e.g. v1.0.0)'
+        required: true
 
 # Jobs.
 jobs:
-  # calc git version.
-  calc-version:
-    runs-on: ubuntu-latest
-    outputs:
-      version: ${{ steps.gitversion.outputs.majorMinorPatch }}
-      build-number: ${{ github.run_number }}
-      commitsSinceVersionSource: ${{ steps.gitversion.outputs.commitsSinceVersionSource }}
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-          # Use gitversion to determine next version (e.g. based on git tag for this release).
-      - name: Install GitVersion
-        uses: gittools/actions/gitversion/setup@v0.9.9
-        with:
-          versionSpec: 'x.x.x'
-
-      - name: Determine Version
-        id: gitversion
-        uses: gittools/actions/gitversion/execute@v0.9.9
-
-      - name: Determine Build Number
-        id: buildnumber
-        env:
-          build_number: ${{ github.run_number }}
-          build_number_offset: 100
-        run: |
-          # $build_number = $(($build_number + $build_number_offset))
-          # echo "::set-output name=build_number::$build_number"
-          echo "build_number: ${{ env.build_number }}"
-
   # deploy to server via sftp.
   deploy:
     runs-on: ubuntu-latest
     needs: calc-version
 
-    # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
+      - name: Display incoming need inputs
+        run: |
+          echo "version-tag: ${{ github.event.inputs.version-tag }}"
+
       # Checks out your repository under $GITHUB_WORKSPACE.
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Display incoming need outputs
-        run: |
-          echo "version: ${{ needs.calc-version.outputs.version }}"
-          echo "build-number: ${{ needs.calc-version.outputs.build-number }}"
-          echo "commitsSinceVersionSource: ${{ needs.calc-version.outputs.commitsSinceVersionSource }}"
+        with:
+          ref: ${{ github.event.inputs.version-tag }}
 
       - name: Create Release
         id: create-release
         uses: actions/create-release@v1
-        if: needs.calc-version.outputs.commitsSinceVersionSource > 0   # Only create a release, if commit change.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}             # This token is provided by Actions.
         with:
-          tag_name: ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
-          release_name: Release ${{ needs.calc-version.outputs.version }}-${{ needs.calc-version.outputs.build-number }}
+          tag_name: ${{ github.event.inputs.version-tag }}
+          release_name: "Release ${{ github.event.inputs.version-tag }}"
+          draft: true           # DEBUG: Testing.
 
+      # DEBUG: Testing.
       # Deploys via sftp to server.
-      - name: Deploy
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          server: ${{ secrets.SSH_HOST }}
-          port: ${{ secrets.SSH_PORT }}
-          sftp_only: true
-          sftpArgs: '-o ConnectTimeout=5'
-          delete_remote_files: false         # This is not working. Likely since no ssh access for this account.
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: './Output/*'
-          remote_path: './public_ftp'
+      # - name: Deploy
+        # uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        # with:
+          # server: ${{ secrets.SSH_HOST }}
+          # port: ${{ secrets.SSH_PORT }}
+          # sftp_only: true
+          # sftpArgs: '-o ConnectTimeout=5'
+          # delete_remote_files: false         # This is not working. Likely since no ssh access for this account.
+          # username: ${{ secrets.SSH_USERNAME }}
+          # password: ${{ secrets.SSH_PASSWORD }}
+          # # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          # local_path: './Output/*'
+          # remote_path: './public_ftp'
