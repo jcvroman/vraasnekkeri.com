@@ -16,10 +16,9 @@ jobs:
   # deploy to server via sftp.
   deploy:
     runs-on: ubuntu-latest
-    needs: calc-version
 
     steps:
-      - name: Display incoming need inputs
+      - name: Display incoming workflow_dispatch inputs
         run: |
           echo "version-tag: ${{ github.event.inputs.version-tag }}"
 
