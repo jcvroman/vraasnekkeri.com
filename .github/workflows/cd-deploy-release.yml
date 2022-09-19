@@ -28,6 +28,9 @@ jobs:
         with:
           ref: ${{ github.event.inputs.version-tag }}
 
+      - name: Workaround to fix read only file issue
+        run: chmod 644 ./Output/styles.css
+
       - name: Create Release
         id: create-release
         uses: actions/create-release@v1
