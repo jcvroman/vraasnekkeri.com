@@ -1,3 +1,11 @@
+# v1.0.45 - 2022-09-19
+## 🏗️ Build System
+- Remove leftover needs
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.0.44 - 2022-09-19
 ## 🏗️ Build System
 - Update to checkout by tag to deploy
