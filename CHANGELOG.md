@@ -1,3 +1,11 @@
+# v1.0.46 - 2022-09-19
+## 🏗️ Build System
+- Add release notes
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.0.45 - 2022-09-19
 ## 🏗️ Build System
 - Remove leftover needs
