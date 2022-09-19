@@ -1,3 +1,10 @@
+# v1.0.47 - 2022-09-19
+## 🔨 Improvements
+- Update support email
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.46 - 2022-09-19
 ## 🏗️ Build System
 - Add release notes
