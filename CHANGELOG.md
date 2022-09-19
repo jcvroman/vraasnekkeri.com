@@ -1,3 +1,11 @@
+# v1.0.50 - 2022-09-19
+## 🏗️ Build System
+- Add back deploy step
+
+## 🧹 Chores
+- Update RELEASE_NOTES.md
+- Update CHANGELOG.md
+
 # v1.0.49 - 2022-09-19
 ## 🧹 Chores
 - Update RELEASE_NOTES.md
