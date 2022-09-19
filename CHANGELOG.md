@@ -1,3 +1,9 @@
+# v1.0.48 - 2022-09-19
+## 🧹 Chores
+- Update RELEASE_NOTES.md
+- Update CHANGELOG.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.0.47 - 2022-09-19
 ## 🔨 Improvements
 - Update support email
