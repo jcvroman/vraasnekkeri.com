@@ -1,3 +1,10 @@
+# v1.0.52 - 2022-09-20
+## 🏗️ Build System
+- Add inputs version override to set version tag
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.51 - 2022-09-19
 ## 🏗️ Build System
 - Add workaround to fix read only file issue
