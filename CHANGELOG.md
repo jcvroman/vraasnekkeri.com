@@ -1,3 +1,7 @@
+# v1.0.55 - 2022-09-20
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.52 - 2022-09-20
 ## 🏗️ Build System
 - Add inputs version override to set version tag
