@@ -13,7 +13,7 @@ on:
 
 # Jobs.
 jobs:
-  # deploy to server via sftp.
+  # deploy to server via sftp, plus release notice.
   deploy:
     runs-on: ubuntu-latest
 
@@ -43,7 +43,6 @@ jobs:
           draft: false
           prerelease: false
 
-      # DEBUG: Testing.
       # Deploys via sftp to server.
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
