@@ -1,3 +1,10 @@
+# v1.0.56 - 2022-09-20
+## 🏗️ Build System
+- Update notes
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.55 - 2022-09-20
 ## 🧹 Chores
 - Update CHANGELOG.md
