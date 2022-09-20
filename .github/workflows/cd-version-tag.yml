@@ -10,11 +10,8 @@ on:
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
     inputs:
-      version:
-        description: 'Tag version (e.g. v0.1.0)'
-        required: true
-      message:
-        description: 'Tag message (e.g. ci: Tag version as v0.1.0)'
+      version-override:
+        description: 'Version (e.g. 1.2.4)'
         required: true
 
 jobs:
@@ -52,17 +49,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Display incoming need outputs
+      - name: Display incoming need outputs and inputs
         run: |
           echo "version: ${{ needs.calc-version.outputs.version }}"
           echo "commitsSinceVersionSource: ${{ needs.calc-version.outputs.commitsSinceVersionSource }}"
+          echo "version-override: ${{ github.event.inputs.version-override }}"
 
-      - name: Create Tag
+      - name: Create Tag by calc-version
+        if: github.event.inputs.version-override == ''      # Only run this step, if inputs value not set.
         uses: negz/create-tag@v1
         with:
           version: "v${{ needs.calc-version.outputs.version }}"
           message: "ci: Tag version as v${{ needs.calc-version.outputs.version }}"
-          token: ${{ secrets.GITHUB_TOKEN }}            # This token is provided by Actions.
+          token: ${{ secrets.GITHUB_TOKEN }}                # This token is provided by Actions.
+
+      - name: Create Tag by inputs version-override
+        if: github.event.inputs.version-override != ''      # Only run this step, if inputs value set.
+        uses: negz/create-tag@v1
+        with:
+          version: "v${{ github.event.inputs.version-override }}"
+          message: "ci: Tag version as v${{ github.event.inputs.version-override }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   # Update changelog.
   # NOTE: This updated changelog is not included in the above tag. But, it has the latest.
