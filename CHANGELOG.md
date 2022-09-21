@@ -1,3 +1,10 @@
+# v1.0.57 - 2022-09-21
+## 🏗️ Build System
+- Update version used of add-and-commit action
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.56 - 2022-09-20
 ## 🏗️ Build System
 - Update notes
