@@ -103,7 +103,7 @@ jobs:
           write-mode: overwrite
 
       - name: Commit and push CHANGELOG.md
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9
         with:
           add: CHANGELOG.md
           message: "chore: Update CHANGELOG.md"
@@ -143,7 +143,7 @@ jobs:
           write-mode: overwrite
 
       - name: Commit and push RELEASE_NOTES.md
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9
         with:
           add: RELEASE_NOTES.md
           message: "chore: Update RELEASE_NOTES.md"
