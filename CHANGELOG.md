@@ -1,3 +1,10 @@
+# v1.0.68 - 2022-09-22
+## 🏗️ Build System
+- Update update-releasenotes job to needs update-changelog so jobs run sequentially
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.67 - 2022-09-22
 ## 🏗️ Build System
 - Update file-path for action-update-file step
