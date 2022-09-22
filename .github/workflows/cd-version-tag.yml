@@ -105,7 +105,7 @@ jobs:
       - name: Commit and push CHANGELOG.md
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: ./CHANGELOG.md
+          file-path: CHANGELOG.md
           commit-msg: "chore: Update CHANGELOG.md"
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -147,6 +147,6 @@ jobs:
       - name: Commit and push CHANGELOG.md
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: ./RELEASE_NOTES.md
+          file-path: RELEASE_NOTES.md
           commit-msg: "chore: Update RELEASE_NOTES.md"
           github-token: ${{ secrets.GITHUB_TOKEN }}
