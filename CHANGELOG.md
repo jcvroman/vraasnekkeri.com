@@ -1,3 +1,7 @@
+# v1.0.67 - 2022-09-22
+## 🏗️ Build System
+- Update file-path for action-update-file step
+
 # v1.0.65 - 2022-09-22
 ## 🧹 Chores
 - Update RELEASE_NOTES.md
