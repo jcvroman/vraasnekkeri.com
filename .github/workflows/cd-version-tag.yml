@@ -102,18 +102,14 @@ jobs:
           contents: ${{ steps.changelog.outputs.changelog }}${{ steps.package.outputs.content }}
           write-mode: overwrite
 
-      # WORKAROUND: Delay to avoid the below BUG.
-      - name: Sleep for 15 seconds
-        run: sleep 15s
-        shell: bash
-
-      # BUG: This is failing sometimes with v7, but every time with v8 & v9.
       - name: Commit and push CHANGELOG.md
-        uses: EndBug/add-and-commit@v9
+        uses: test-room-7/action-update-file@v1
         with:
-          add: CHANGELOG.md
-          message: "chore: Update CHANGELOG.md"
-          # branch: main
+          file-path: ./CHANGELOG.md
+          commit-msg: "chore: Update CHANGELOG.md"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+
 
   # Update releasenotes.
   # NOTE: This updated releasenotes is not included in the above tag. But, it has the latest.
@@ -148,14 +144,9 @@ jobs:
           contents: ${{ steps.releasenotes.outputs.changelog }}${{ steps.package.outputs.content }}
           write-mode: overwrite
 
-      # WORKAROUND: Delay to avoid the below BUG.
-      - name: Sleep for 15 seconds
-        run: sleep 15s
-        shell: bash
-
-      # BUG: This is failing sometimes with v7, but every time with v8 & v9. (Originally just in update-changelog.)
-      - name: Commit and push RELEASE_NOTES.md
-        uses: EndBug/add-and-commit@v9
+      - name: Commit and push CHANGELOG.md
+        uses: test-room-7/action-update-file@v1
         with:
-          add: RELEASE_NOTES.md
-          message: "chore: Update RELEASE_NOTES.md"
+          file-path: ./RELEASE_NOTES.md
+          commit-msg: "chore: Update RELEASE_NOTES.md"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
