@@ -1,3 +1,7 @@
+# v1.0.65 - 2022-09-22
+## 🧹 Chores
+- Update RELEASE_NOTES.md
+
 # v1.0.57 - 2022-09-21
 ## 🏗️ Build System
 - Update version used of add-and-commit action
