@@ -102,6 +102,12 @@ jobs:
           contents: ${{ steps.changelog.outputs.changelog }}${{ steps.package.outputs.content }}
           write-mode: overwrite
 
+      # WORKAROUND: Delay to avoid the below BUG.
+      - name: Sleep for 15 seconds
+        run: sleep 15s
+        shell: bash
+
+      # BUG: This is failing sometimes with v7, but every time with v8 & v9.
       - name: Commit and push CHANGELOG.md
         uses: EndBug/add-and-commit@v9
         with:
@@ -142,6 +148,12 @@ jobs:
           contents: ${{ steps.releasenotes.outputs.changelog }}${{ steps.package.outputs.content }}
           write-mode: overwrite
 
+      # WORKAROUND: Delay to avoid the below BUG.
+      - name: Sleep for 15 seconds
+        run: sleep 15s
+        shell: bash
+
+      # BUG: This is failing sometimes with v7, but every time with v8 & v9. (Originally just in update-changelog.)
       - name: Commit and push RELEASE_NOTES.md
         uses: EndBug/add-and-commit@v9
         with:
