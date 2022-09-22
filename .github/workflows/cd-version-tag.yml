@@ -115,7 +115,7 @@ jobs:
   # NOTE: This updated releasenotes is not included in the above tag. But, it has the latest.
   update-releasenotes:
     runs-on: ubuntu-latest
-    needs: create-tag
+    needs: update-changelog
 
     steps:
       - name: Checkout
