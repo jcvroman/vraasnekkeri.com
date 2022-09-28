@@ -21,7 +21,7 @@ struct VraasnekkeriCom: Website {
     var name = "Vråsnekkeri"
     var description = "Vråsnekkeri: Methodically crafted."
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? { "images/vraasnekkeri-logo.png" }
 }
 
 // This will generate your website using the built-in Foundation theme:
