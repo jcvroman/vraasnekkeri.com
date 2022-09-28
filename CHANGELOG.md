@@ -1,3 +1,9 @@
+# v1.0.70 - 2022-09-28
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.0.69 - 2022-09-28
 ## 🔨 Improvements
 - Release Vråsnekkeri logo and related post
