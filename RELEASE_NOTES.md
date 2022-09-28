@@ -1,3 +1,7 @@
+# v1.0.69 - 2022-09-28
+## 🔨 Improvements
+- Release Vråsnekkeri logo and related post
+
 # v1.0.59 - 2022-09-22
 ## 📚 Documentation Changes
 - dev: Add resource images and docs to create them
