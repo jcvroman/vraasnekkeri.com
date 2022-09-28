@@ -1,3 +1,10 @@
+# v1.0.69 - 2022-09-28
+## 🔨 Improvements
+- Release Vråsnekkeri logo and related post
+
+## 🧹 Chores
+- Update CHANGELOG.md
+
 # v1.0.68 - 2022-09-22
 ## 🏗️ Build System
 - Update update-releasenotes job to needs update-changelog so jobs run sequentially
