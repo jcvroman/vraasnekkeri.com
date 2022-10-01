@@ -72,6 +72,8 @@ private struct VraaThemeHTMLFactory<Site: Website>: HTMLFactory {
                     SiteHeader(context: context, selectedSelectionID: item.sectionID)
                     Wrapper {
                         Article {
+                            Paragraph(DateFormatter.localizedString(from: item.date,
+                                                                    dateStyle: .short, timeStyle: .short))
                             Div(item.content.body).class("content")
                             Span("Tagged with: ")
                             ItemTagList(item: item, site: context.site)
@@ -199,6 +201,7 @@ private struct ItemList<Site: Website>: Component {
     var body: Component {
         List(items) { item in
             Article {
+                Paragraph(DateFormatter.localizedString(from: item.date, dateStyle: .short, timeStyle: .short))
                 H1(Link(item.title, url: item.path.absoluteString))
                 ItemTagList(item: item, site: site)
                 Paragraph(item.description)
