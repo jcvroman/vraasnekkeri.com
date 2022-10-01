@@ -224,14 +224,14 @@ private struct SiteFooter: Component {
     var body: Component {
         Footer {
             Paragraph {
-                Text("Copyright © 2022 Jimmy Vroman. All rights reserved.")
-            }
-            Paragraph {
                 Link("RSS feed", url: "/feed.rss")
             }
             Paragraph {
-                Text("Generated via Swift using ")
+                Text("Generated in Swift using ")
                 Link("Publish", url: "https://github.com/johnsundell/publish")
+            }
+            Paragraph {
+                Text("Copyright © 2022 Jimmy Vroman. All rights reserved.")
             }
         }
     }
