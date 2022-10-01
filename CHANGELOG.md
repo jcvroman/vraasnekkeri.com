@@ -1,3 +1,11 @@
+# v1.1.7 - 2022-10-01
+## 🔨 Improvements
+- Update favicon
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.1.6 - 2022-10-01
 ## 🧹 Chores
 - Update CHANGELOG.md
