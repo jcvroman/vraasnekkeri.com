@@ -22,19 +22,8 @@ struct VraasnekkeriCom: Website {
     var description = "Vråsnekkeri: Methodically crafted."
     var language: Language { .english }
     var imagePath: Path? { "images/vraasnekkeri-logo.png" }
+    var favicon: Favicon? { .init(path: Path("images/favicon.ico"), type: "image/x-icon")}
 }
-
-/*
-public extension Theme {
-    /// Based on the default "Foundation" theme that Publish ships with.
-    static var vraaTheme: Self {
-        Theme(
-            htmlFactory: VraaThemeHTMLFactory(),
-            resourcePaths: ["Resources/VraaTheme/styles.css"]
-        )
-    }
-}
-*/
 
 // This will generate your website using the built-in Foundation theme:
 try VraasnekkeriCom().publish(withTheme: .vraaTheme)
