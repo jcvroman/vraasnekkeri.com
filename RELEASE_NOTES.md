@@ -1,3 +1,7 @@
+# v1.1.8 - 2022-10-01
+## 🐛 Bug Fixes
+- Add needed favicon path
+
 # v1.1.7 - 2022-10-01
 ## 🔨 Improvements
 - Update favicon
