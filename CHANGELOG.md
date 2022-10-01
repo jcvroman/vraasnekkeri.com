@@ -1,3 +1,11 @@
+# v1.1.5 - 2022-10-01
+## 🔨 Improvements
+- Add favicon
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.1.4 - 2022-10-01
 ## 🔨 Improvements
 - Post / Post List: Add date/time
