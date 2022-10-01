@@ -1,3 +1,11 @@
+# v1.1.0 - 2022-10-01
+## 🎉 New Features
+- Create new site theme
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.0.72 - 2022-09-29
 ## 🧹 Chores
 - Update CHANGELOG.md
