@@ -170,6 +170,9 @@ private struct SiteHeader<Site: Website>: Component {
     var body: Component {
         Header {
             Wrapper {
+                Paragraph {
+                    Image("/images/vraasnekkeri-logo-64.png")
+                }
                 Link(context.site.name, url: "/")
                     .class("site-name")
 
