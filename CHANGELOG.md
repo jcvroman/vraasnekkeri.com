@@ -1,3 +1,14 @@
+# v1.1.1 - 2022-10-01
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
+## Other Changes
+- Merge branch 'main' of https://github.com/jcvroman/vraasnekkeri.com
+
+## Ehancement
+- Update footer items order
+
 # v1.1.0 - 2022-10-01
 ## 🎉 New Features
 - Create new site theme
