@@ -24,5 +24,17 @@ struct VraasnekkeriCom: Website {
     var imagePath: Path? { "images/vraasnekkeri-logo.png" }
 }
 
+/*
+public extension Theme {
+    /// Based on the default "Foundation" theme that Publish ships with.
+    static var vraaTheme: Self {
+        Theme(
+            htmlFactory: VraaThemeHTMLFactory(),
+            resourcePaths: ["Resources/VraaTheme/styles.css"]
+        )
+    }
+}
+*/
+
 // This will generate your website using the built-in Foundation theme:
-try VraasnekkeriCom().publish(withTheme: .foundation)
+try VraasnekkeriCom().publish(withTheme: .vraaTheme)
