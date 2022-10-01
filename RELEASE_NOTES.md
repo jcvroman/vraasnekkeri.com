@@ -1,3 +1,7 @@
+# v1.1.5 - 2022-10-01
+## 🔨 Improvements
+- Add favicon
+
 # v1.1.4 - 2022-10-01
 ## 🔨 Improvements
 - Post / Post List: Add date/time
