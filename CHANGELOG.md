@@ -1,3 +1,11 @@
+# v1.1.4 - 2022-10-01
+## 🔨 Improvements
+- Post / Post List: Add date/time
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.1.3 - 2022-10-01
 ## 🧹 Chores
 - Update CHANGELOG.md
