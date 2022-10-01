@@ -1,3 +1,9 @@
+# v1.1.3 - 2022-10-01
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md and CHANGELOG.md
+
 # v1.1.2 - 2022-10-01
 ## 🧹 Chores
 - Update CHANGELOG.md
