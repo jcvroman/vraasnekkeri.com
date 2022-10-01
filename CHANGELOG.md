@@ -1,3 +1,9 @@
+# v1.1.6 - 2022-10-01
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.1.5 - 2022-10-01
 ## 🔨 Improvements
 - Add favicon
