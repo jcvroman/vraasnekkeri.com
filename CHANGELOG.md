@@ -1,3 +1,11 @@
+# v1.1.9 - 2022-10-01
+## 🔨 Improvements
+- Add vraasnekkeri logo to site header
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.1.8 - 2022-10-01
 ## 🐛 Bug Fixes
 - Add needed favicon path
