@@ -4,3 +4,6 @@
 # Release Notes
 ## 🎉 New Features
 - Create new site theme
+
+## 🔨 Improvements
+- Update footer items order
