@@ -1,3 +1,7 @@
+# v1.1.10 - 2022-10-02
+## 🔨 Improvements
+- Support: Add email support icon
+
 # v1.1.9 - 2022-10-01
 ## 🔨 Improvements
 - Add vraasnekkeri logo to site header
