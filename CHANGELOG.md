@@ -1,3 +1,11 @@
+# v1.1.11 - 2022-10-02
+## 🔨 Improvements
+- Apps: Update FastingReporter icon size
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.1.10 - 2022-10-02
 ## 🔨 Improvements
 - Support: Add email support icon
