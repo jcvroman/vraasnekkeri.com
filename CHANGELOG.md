@@ -1,3 +1,9 @@
+# v1.1.12 - 2022-10-02
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.1.11 - 2022-10-02
 ## 🔨 Improvements
 - Apps: Update FastingReporter icon size
