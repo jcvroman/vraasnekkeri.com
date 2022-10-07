@@ -1,3 +1,7 @@
+# v1.2.0 - 2022-10-07
+## 🎉 New Features
+- FAQ: FastingReporter: Add faq posts
+
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
