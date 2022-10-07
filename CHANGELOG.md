@@ -1,3 +1,9 @@
+# v1.2.1 - 2022-10-07
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.0 - 2022-10-07
 ## 🎉 New Features
 - FAQ: FastingReporter: Add faq posts
