@@ -9,6 +9,7 @@ struct VraasnekkeriCom: Website {
         case posts
         case apps
         case support
+        case faq
         case about
     }
 
