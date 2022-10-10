@@ -1,3 +1,11 @@
+# v1.2.7 - 2022-10-10
+## 🔨 Improvements
+- Apps: FastingReporter: Add README
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.6 - 2022-10-10
 ## 🧹 Chores
 - Update CHANGELOG.md
