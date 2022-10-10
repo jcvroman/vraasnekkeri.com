@@ -1,3 +1,12 @@
+# v1.2.2 - 2022-10-10
+## 🔨 Improvements
+- About: Update moto
+- About: Update moto
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.1 - 2022-10-07
 ## 🧹 Chores
 - Update CHANGELOG.md
