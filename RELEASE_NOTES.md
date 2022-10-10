@@ -1,3 +1,7 @@
+# v1.2.5 - 2022-10-10
+## 🔨 Improvements
+- FAQ: FastingReporter: Add Health Access tips
+
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
