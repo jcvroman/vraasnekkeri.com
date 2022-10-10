@@ -1,3 +1,9 @@
+# v1.2.4 - 2022-10-10
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.3 - 2022-10-10
 ## 🔨 Improvements
 - Support: Update email support link text
