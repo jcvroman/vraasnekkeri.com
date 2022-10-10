@@ -6,6 +6,7 @@ tags: faq-tip-FastingReporter, faq-FastingReporter, FastingReporter, tip, faq, s
 # How to enter carbs
 
 ## TIP: How to enter carbs in the Health app.
+### Health App Usage
 
 How to enter carbs in the Health app.
 
