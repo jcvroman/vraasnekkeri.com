@@ -20,7 +20,7 @@ struct VraasnekkeriCom: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://vraasnekkeri.com")!
     var name = "Vråsnekkeri"
-    var description = "Vråsnekkeri: Methodically crafted."
+    var description = "Vråsnekkeri: Methodically crafted and engineered."
     var language: Language { .english }
     var imagePath: Path? { "images/vraasnekkeri-logo.png" }
     var favicon: Favicon? { .init(path: Path("images/favicon.ico"), type: "image/x-icon")}
