@@ -1,3 +1,11 @@
+# v1.2.5 - 2022-10-10
+## 🔨 Improvements
+- FAQ: FastingReporter: Add Health Access tips
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.4 - 2022-10-10
 ## 🧹 Chores
 - Update CHANGELOG.md
