@@ -1,3 +1,11 @@
+# v1.2.3 - 2022-10-10
+## 🔨 Improvements
+- Support: Update email support link text
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.2 - 2022-10-10
 ## 🔨 Improvements
 - About: Update moto
