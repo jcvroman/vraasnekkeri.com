@@ -1,3 +1,11 @@
+# v1.2.9 - 2022-10-11
+## 🔨 Improvements
+- Add updated date for items in lists and articles
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.8 - 2022-10-10
 ## 🧹 Chores
 - Update CHANGELOG.md
