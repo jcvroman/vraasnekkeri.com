@@ -1,3 +1,8 @@
+# v1.2.11 - 2022-10-11
+## 🧹 Chores
+- Update CHANGELOG.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.10 - 2022-10-11
 ## 🧹 Chores
 - Update CHANGELOG.md
