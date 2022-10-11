@@ -1,3 +1,11 @@
+# v1.2.10 - 2022-10-11
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
+## Other Changes
+- Posts: Update post file name based on date time
+
 # v1.2.9 - 2022-10-11
 ## 🔨 Improvements
 - Add updated date for items in lists and articles
