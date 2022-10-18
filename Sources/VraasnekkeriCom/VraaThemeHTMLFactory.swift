@@ -73,10 +73,14 @@ private struct VraaThemeHTMLFactory<Site: Website>: HTMLFactory {
                     Wrapper {
                         Article {
                             Paragraph {
-                                Text(DateFormatter.localizedString(from: item.date,
-                                                                   dateStyle: .short, timeStyle: .short))
-                                Text("    (Updated: " + DateFormatter.localizedString(from: item.lastModified,
-                                                                          dateStyle: .short, timeStyle: .short) + ")")
+                                Text(DateFormatter.localizedString(from: item.date, dateStyle: .short,
+                                                                   timeStyle: .none))
+                                Text(" " + DateFormatter.localizedString(from: item.date, dateStyle: .none,
+                                                                         timeStyle: .short))
+                                Text("    (" + DateFormatter.localizedString(from: item.lastModified, dateStyle: .short,
+                                                                             timeStyle: .none))
+                                Text(DateFormatter.localizedString(from: item.lastModified, dateStyle: .none,
+                                                                   timeStyle: .short) + ")")
                             }
                             Div(item.content.body).class("content")
                             Span("Tagged with: ")
@@ -209,9 +213,14 @@ private struct ItemList<Site: Website>: Component {
         List(items) { item in
             Article {
                 Paragraph {
-                    Text(DateFormatter.localizedString(from: item.date, dateStyle: .short, timeStyle: .short))
-                    Text("    (Updated: " + DateFormatter.localizedString(from: item.lastModified,
-                                                              dateStyle: .short, timeStyle: .short) + ")")
+                    Text(DateFormatter.localizedString(from: item.date, dateStyle: .short,
+                                                       timeStyle: .none))
+                    Text(" " + DateFormatter.localizedString(from: item.date, dateStyle: .none,
+                                                             timeStyle: .short))
+                    Text("    (" + DateFormatter.localizedString(from: item.lastModified, dateStyle: .short,
+                                                                 timeStyle: .none))
+                    Text(DateFormatter.localizedString(from: item.lastModified, dateStyle: .none,
+                                                       timeStyle: .short) + ")")
                 }
                 H1(Link(item.title, url: item.path.absoluteString))
                 ItemTagList(item: item, site: site)
