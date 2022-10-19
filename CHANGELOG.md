@@ -1,3 +1,15 @@
+# v1.2.14 - 2022-10-19
+## 🐛 Bug Fixes
+- Add missing space between modified date & time for items
+
+## 🔨 Improvements
+- Add privacy policy for FastingReporter
+- FastingReporter: Add privacy policy post
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.13 - 2022-10-18
 ## 🧹 Chores
 - Update CHANGELOG.md
