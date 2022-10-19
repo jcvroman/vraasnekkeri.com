@@ -79,7 +79,7 @@ private struct VraaThemeHTMLFactory<Site: Website>: HTMLFactory {
                                                                          timeStyle: .short))
                                 Text("    (" + DateFormatter.localizedString(from: item.lastModified, dateStyle: .short,
                                                                              timeStyle: .none))
-                                Text(DateFormatter.localizedString(from: item.lastModified, dateStyle: .none,
+                                Text(" " + DateFormatter.localizedString(from: item.lastModified, dateStyle: .none,
                                                                    timeStyle: .short) + ")")
                             }
                             Div(item.content.body).class("content")
@@ -219,7 +219,7 @@ private struct ItemList<Site: Website>: Component {
                                                              timeStyle: .short))
                     Text("    (" + DateFormatter.localizedString(from: item.lastModified, dateStyle: .short,
                                                                  timeStyle: .none))
-                    Text(DateFormatter.localizedString(from: item.lastModified, dateStyle: .none,
+                    Text(" " + DateFormatter.localizedString(from: item.lastModified, dateStyle: .none,
                                                        timeStyle: .short) + ")")
                 }
                 H1(Link(item.title, url: item.path.absoluteString))
