@@ -1,3 +1,8 @@
+# v1.2.17 - 2023-02-14
+## 🧹 Chores
+- Update CHANGELOG.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.16 - 2023-02-14
 ## 🧹 Chores
 - Update CHANGELOG.md
