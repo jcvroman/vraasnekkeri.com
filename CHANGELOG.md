@@ -1,3 +1,9 @@
+# v1.2.19 - 2023-05-10
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.18 - 2023-05-10
 ## 🔨 Improvements
 - FastingReporter: 1.0.0 released post
