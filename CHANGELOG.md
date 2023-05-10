@@ -1,3 +1,15 @@
+# v1.2.18 - 2023-05-10
+## 🔨 Improvements
+- FastingReporter: 1.0.0 released post
+- FastingReporter: Add 1.0.0 released post
+
+## 🏗️ Build System
+- calc-version job: gitversion: update to 0.10.2
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.17 - 2023-02-14
 ## 🧹 Chores
 - Update CHANGELOG.md
