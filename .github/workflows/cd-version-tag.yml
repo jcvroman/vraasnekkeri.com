@@ -31,13 +31,13 @@ jobs:
       # Use gitversion to determine next version.
       # NOTE: Configuration File: GitVersion.yml
       - name: Install GitVersion
-        uses: gittools/actions/gitversion/setup@v0.9.9
+        uses: gittools/actions/gitversion/setup@v0.10.2
         with:
           versionSpec: 'x.x.x'
 
       - name: Determine Version
         id: gitversion
-        uses: gittools/actions/gitversion/execute@v0.9.9
+        uses: gittools/actions/gitversion/execute@v0.10.2
 
   # Create tag for version.
   create-tag:
