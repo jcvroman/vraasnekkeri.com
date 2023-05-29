@@ -46,7 +46,7 @@ Did you allow FastingReporter to read Carbohydrates?
 If you did not allow FastingReporter to read Carbohydrates, you'll need to go to Settings / Health / Data Access & Devices / FastingReporter, and toggle on allow FastingReporter to read Carbohydrates. FastingReporter cannot report on your data entered in the Health app without this access.
 
 #### Health App Usage
-How to enter carbs.
+##### How to enter carbs.
 1. Launch the Health app.
 2. Tap on the Browse button.
 3. Tap on the Nutrition row.
@@ -67,37 +67,37 @@ Navigate FastingReporter by using the Dashboard, Fast List, Entry List and Daily
 It displays a central compact look at Fast, Fast List, Entry List and Daily List. When the screen height is small 
 (e.g. an iPhone in landscape mode), the Entry List is not displayed.
 
-Each list:
+#### Each list:
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
-+ Include data from the last 10 days.
++ Include data from 3 days back.
 
 ### Fast
-The current fast. I.e. The time since the most recent carb entry (per it's date/time) in the Health app.
+#### The current fast. I.e. The time since the most recent carb entry (per it's date/time) in the Health app.
 + All entered carb values are included (e.g. 0, 1, 10, 100).
 + It is displayed as a time (e.g. 14h 22m) and on a progress bar of 24 hours.
 
 ### Fast List
-A list of the longest fast ending on a date (e.g. it may start on a previous date). For a date, it includes a search back through the previous date(s) until a carb entry is found.
+#### A list of the longest fast ending on a date (e.g. it may start on a previous date). For a date, it includes a search back through the previous date(s) until a carb entry is found.
 + A date column and fast column. When the screen height is small (e.g. an iPhone in landscape mode), a fast end column is displayed too.
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 
 ### Entry List
-A list of the carbs entered on that date.
+#### A list of the carbs entered on that date.
 + A date column and carbs column. When the screen height is small (e.g. an iPhone in landscape mode), a fast column is displayed too.
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 
 ### Daily List
-A list of the total carbs for that date.
+#### A list of the total carbs for that date.
 + A date column and carbs column. When the screen height is small (e.g. an iPhone in landscape mode), a day column is displayed too.
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 
 ### All Lists
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
-+ Include data from the last 100 days.
++ Include data from 7 days back.
 
 ### Fast Levels
 Are a visual aid to how you are doing with your fasts. The fast durations are displayed in the color noted below in Fast, Fast List and Entry List.
