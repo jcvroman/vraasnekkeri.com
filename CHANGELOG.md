@@ -1,3 +1,11 @@
+# v1.2.22 - 2023-05-30
+## 🔨 Improvements
+- Apps: Update FastingReporter version
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.21 - 2023-05-30
 ## 🧹 Chores
 - Update CHANGELOG.md
