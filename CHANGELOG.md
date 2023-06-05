@@ -1,3 +1,11 @@
+# v1.2.24 - 2023-06-05
+## 📚 Documentation Changes
+- Update FastingReporter 1.1.0 README
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.23 - 2023-05-30
 ## 🧹 Chores
 - Update CHANGELOG.md
