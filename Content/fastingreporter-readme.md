@@ -61,7 +61,7 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ## Help
 ### Navigation
-Navigate FastingReporter by using the Dashboard, Fast List, Entry List and Daily List buttons at the bottom of the screen.
+Navigate FastingReporter by using the Dashboard, Fast List, Entry List, Daily List and Settings buttons at the bottom of the screen.
 
 ### Dashboard
 It displays a central compact look at Fast, Fast List, Entry List and Daily List. When the screen height is small 
@@ -109,3 +109,6 @@ Are a visual aid to how you are doing with your fasts. The fast durations are di
     C >= 12 & < 14 (Orange)
     
     D < 12 (Secondary)
+
+### Settings
+Feedback, Support and About actions, information and settings for FastingReporter.
