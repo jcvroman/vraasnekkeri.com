@@ -64,8 +64,8 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 Navigate FastingReporter by using the Dashboard, Fast List, Entry List, Daily List and Settings buttons at the bottom of the screen.
 
 ### Dashboard
-It displays a central compact look at Fast, Fast List, Entry List and Daily List. When the screen height is small 
-(e.g. an iPhone in landscape mode), the Entry List is not displayed.
+It displays a central compact look at Fast, Fast List and Daily List. When the screen height is small 
+(e.g. an iPhone in landscape mode), the Daily List is not displayed.
 
 #### Each list:
 + Is sorted by descending date by default.
