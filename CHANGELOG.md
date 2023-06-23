@@ -1,3 +1,11 @@
+# v1.2.34 - 2023-06-23
+## 🔨 Improvements
+- FastingReporter: Updated 1.2.0 released post
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.33 - 2023-06-23
 ## 🧹 Chores
 - Update CHANGELOG.md
