@@ -1,3 +1,11 @@
+# v1.2.36 - 2024-04-23
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
+## Other Changes
+- Update copyright years
+
 # v1.2.35 - 2023-06-23
 ## 🧹 Chores
 - Update CHANGELOG.md
