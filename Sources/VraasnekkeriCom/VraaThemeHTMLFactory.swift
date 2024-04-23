@@ -254,7 +254,7 @@ private struct SiteFooter: Component {
                 Link("Publish", url: "https://github.com/johnsundell/publish")
             }
             Paragraph {
-                Text("Copyright © 2022-2023 Jimmy Vroman. All rights reserved.")
+                Text("Copyright © 2022-2024 Jimmy Vroman. All rights reserved.")
             }
         }
     }

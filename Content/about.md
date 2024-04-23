@@ -1,6 +1,6 @@
 # About
 
-Copyright © 2022-2023 Jimmy Vroman. All rights reserved.
+Copyright © 2022-2024 Jimmy Vroman. All rights reserved.
 
 Vråsnekkeri: Methodically crafted and engineered.
 

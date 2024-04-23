@@ -4,7 +4,7 @@
 ### FastingReporter
 Track your fasts by entering your carbohydrates (carbs) consumed into the Health app.
 
-Copyright © 2022-2023 Jimmy Vroman.
+Copyright © 2022-2024 Jimmy Vroman.
 All rights reserved.
 
 Vråsnekkeri: Methodically crafted and engineered.
