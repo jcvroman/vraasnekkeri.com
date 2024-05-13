@@ -71,7 +71,7 @@ For iOS 16 and newer, it displays a central compact look at Fast, Fast Chart and
 + Is sorted by descending date by default.
 + Includes data from 3 days back.
 
-For iOS 14 and 15, it displays a central compact look at Fast, Fast List and Daily List. When the screen height is small 
+For iOS 15, it displays a central compact look at Fast, Fast List and Daily List. When the screen height is small 
 (e.g. an iPhone in landscape mode), the Daily List is not displayed.
 
 #### Each list:
