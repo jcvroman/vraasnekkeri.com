@@ -70,6 +70,7 @@ For iOS 16 and newer, it displays a central compact look at Fast, Fast Chart and
 #### Each chart:
 + Is sorted by descending date by default.
 + Includes data from 3 days back.
++ **[Upgrade to Plus: 6 days back.]**
 
 For iOS 15, it displays a central compact look at Fast, Fast List and Daily List. When the screen height is small 
 (e.g. an iPhone in landscape mode), the Daily List is not displayed.
@@ -78,6 +79,7 @@ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 + Includes data from 3 days back.
++ **[Upgrade to Plus: 6 days back.]**
 
 ### Fast
 #### The current fast. I.e. The time since the most recent carb entry (per it's date/time) in the Health app.
@@ -105,6 +107,7 @@ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List
 ### All Lists
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 + Includes data from 7 days back.
++ **[Upgrade to Plus: 400 days back.]**
 
 ### Fast Levels
 Are a visual aid to how you are doing with your fasts. The fast durations are displayed in the color noted below in Fast, Fast List and Entry List.
