@@ -4,7 +4,7 @@
 ### FastingReporter
 Track your fasts by entering your carbohydrates (carbs) consumed into the Health app.
 
-Copyright © 2022-2024 Jimmy Vroman.
+Copyright © 2022-2025 Jimmy Vroman.
 All rights reserved.
 
 Vråsnekkeri: Methodically crafted and engineered.
@@ -64,11 +64,13 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 Navigate FastingReporter by using the Dashboard, Fast List, Entry List, Daily List and Settings buttons at the bottom of the screen.
 
 ### Dashboard
-For iOS 16 and newer, it displays a central compact look at Fast, Fast Chart and Daily Chart. When the screen height is small 
-(e.g. an iPhone in landscape mode), the Daily Chart is not displayed.
+For iOS 16 and newer, it displays a central compact look at Fast, Fast List chart and Daily List chart.
++ When the screen height is small (e.g. an iPhone in landscape mode), the Daily List chart is not displayed.
++ Toggle between chart and list via the chart button on the navigation bar.
 
 #### Each chart:
 + Is sorted by descending date by default.
++ Is sorted per the list sort.
 + Includes data from 3 days back.
 + **[Upgrade to Plus: 6 days back.]**
 
@@ -104,10 +106,13 @@ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 
-### All Lists
+### All lists
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
++ For iOS 16 and newer, a chart can be viewed.
++ Toggle between chart and list via the chart button on the navigation bar.
++ The chart is sorted per the list sort.
 + Includes data from 7 days back.
-+ **[Upgrade to Plus: 400 days back.]**
++ **[Upgrade to Plus: 180 days back.]**
 
 ### Fast Levels
 Are a visual aid to how you are doing with your fasts. The fast durations are displayed in the color noted below in Fast, Fast List and Entry List.
