@@ -1,4 +1,5 @@
 # FastingReporter
+
 ###### &nbsp;  
 
 ## About
@@ -30,6 +31,7 @@ Still have a question or issue? Please contact us.
 #### Have some feedback or a feature request? Please take a look at our [FAQ](http://vraasnekkeri.com/faq/).
 Still have some feedback or a feature request? Please contact us at 
 [Email Support](mailto:support@vraasnekkeri.com?subject=FastingReporter%20Support%3A%20Feedback%7CFeature%7CIssue%3A&body=Please%20describe%20your%20feedback,%20feature%20request%20or%20issue%20below.%0A----------------------------------%0A%20)
+
 ###### &nbsp;  
 
 ## Help
@@ -55,6 +57,7 @@ For iOS 16 and newer, it displays a central compact look at Fast, Fast List char
 
 For iOS 15, it displays a central compact look at Fast, Fast List and Daily List. When the screen height is small 
 (e.g. an iPhone in landscape mode), the Daily List is not displayed.
+
 ###### &nbsp;  
 
 #### Each list:
@@ -108,6 +111,7 @@ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List
 
 ### Fast Levels
 Are a visual aid to how you are doing with your fasts. The fast durations are displayed in the color noted below in Fast, Fast List and Entry List.
+
 ###### &nbsp;  
 
     A >= 16 (Green)
