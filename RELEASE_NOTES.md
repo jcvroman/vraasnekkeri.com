@@ -1,3 +1,7 @@
+# v1.2.45 - 2024-12-25
+## 📚 Documentation Changes
+- Update FastingReporter 1.3.0 README
+
 # v1.2.44 - 2024-12-22
 ## 📚 Documentation Changes
 - Update FastingReporter 1.3.0 README
