@@ -50,7 +50,7 @@
 + Is sorted by descending date by default.
 + Is sorted per the list sort.
 + Includes data from 3 days back.
-    + [[🚀 Upgrade to Plus: 6 days back.](http://vraasnekkeri.com/apps/)]
+    + [[🚀 Upgrade to ➕Plus: 6 days back.](http://vraasnekkeri.com/apps/)]
 
 ###### &nbsp;  
 
@@ -62,7 +62,7 @@
 + Is sorted by descending date by default.
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 + Includes data from 3 days back.
-    + [[🚀 Upgrade to Plus: 6 days back.](http://vraasnekkeri.com/apps/)]
+    + [[🚀 Upgrade to ➕Plus: 6 days back.](http://vraasnekkeri.com/apps/)]
 
 ###### &nbsp;  
 
@@ -103,7 +103,7 @@
 + Toggle between chart and list via the chart button on the navigation bar.
 + The chart is sorted per the list sort.
 + Includes data from 7 days back.
-    + [[🚀 Upgrade to Plus: 180 days back.](http://vraasnekkeri.com/apps/)]
+    + [[🚀 Upgrade to ➕Plus: 180 days back.](http://vraasnekkeri.com/apps/)]
 
 ###### &nbsp;  
 
@@ -117,4 +117,4 @@
 ###### &nbsp;  
 
 ### ⚙️ Settings
-#### Upgrade, Feedback, Support and About actions, information and settings for FastingReporter.
+#### Upgrade, Feedback, Support and About sections for actions, information and settings for FastingReporter.
