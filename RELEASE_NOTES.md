@@ -1,3 +1,7 @@
+# v1.2.53 - 2025-01-07
+## 🔨 Improvements
+- #111: Icons: Update app and website logos
+
 # v1.2.52 - 2025-01-07
 ## 🔨 Improvements
 - #111: Icons: Update app and website logos
