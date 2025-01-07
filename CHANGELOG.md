@@ -1,3 +1,14 @@
+# v1.2.51 - 2025-01-07
+## 🔨 Improvements
+- #111: Icons: Update app and website logos
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
+## Other Changes
+- Merge branch 'main' of https://github.com/jcvroman/vraasnekkeri.com
+
 # v1.2.50 - 2025-01-07
 ## 🔨 Improvements
 - #111: Icons: Update app and website logos
