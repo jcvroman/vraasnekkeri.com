@@ -1,3 +1,11 @@
+# v1.2.54 - 2025-01-07
+## 🔨 Improvements
+- #111: Icons: Update app and website logos
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.53 - 2025-01-07
 ## 🔨 Improvements
 - #111: Icons: Update app and website logos
