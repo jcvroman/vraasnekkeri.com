@@ -42,7 +42,7 @@
 ### 🚗 Dashboard
 #### 🗒️ For iOS 16 and newer, it displays a central compact look at Fast, Fast List chart and Daily List chart.
 + When the screen height is small (e.g. an iPhone in landscape mode), the Daily List chart is not displayed.
-+ Toggle between chart and list via the chart button on the navigation bar.
++ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 
 ###### &nbsp;  
 
@@ -100,7 +100,7 @@
 ### 🧾 All lists
 + Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
 + For iOS 16 and newer, a chart can be viewed.
-+ Toggle between chart and list via the chart button on the navigation bar.
++ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 + The chart is sorted per the list sort.
 + Includes data from 7 days back.
     + [[🚀 Upgrade to ➕Plus: 180 days back.](http://vraasnekkeri.com/apps/)]
@@ -118,3 +118,4 @@
 
 ### ⚙️ Settings
 #### Upgrade, Feedback, Support and About sections for actions, information and settings for FastingReporter.
+
