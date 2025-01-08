@@ -16,6 +16,8 @@
 ##### Vråsnekkeri: Methodically crafted and engineered.
 
 ###### &nbsp;  
+###### &nbsp;  
+
 
 ## 🛟 Support
 ###  📧 Support
@@ -32,6 +34,37 @@
 ###### Still have some feedback or a feature request? Please contact us at [✉️ Email Support](mailto:support@vraasnekkeri.com?subject=FastingReporter%20Support%3A%20Feedback%7CFeature%7CIssue%3A&body=Please%20describe%20your%20feedback,%20feature%20request%20or%20issue%20below.%0A----------------------------------%0A%20).
 
 ###### &nbsp;  
+###### &nbsp;  
+
+
+## ❤️ Health App Help
+### 🔐 Health App Access
+#### 🗒️ Does FastingReporter have access to read Carbohydrates in the Health app?
+1. During your initial launch of FastingReporter, was the Health Access screen displayed?
+2. Did you allow FastingReporter to read Carbohydrates?
+3. If you did not allow FastingReporter to read Carbohydrates, you'll need to go to Settings / Health / Data Access & Devices / FastingReporter, and toggle on allow FastingReporter to read Carbohydrates. FastingReporter cannot report on your data entered in the Health app without this access.
+
+###### &nbsp;  
+
+### 💌 Health App Usage
+#### 🗒️ How to enter carbs in the Health app.
+1. Launch the Health app.
+2. Tap on the Browse button.
+3. Tap on the Nutrition row.
+4. Tap on the Carbohydrates row.
+5. Tap on the Add Data button.
+6. Enter the number of carbs.
+7. Adjust the Date and Time, if necessary.
+8. Tap on the Add button.
+
+###### &nbsp;  
+
+##### ⚠️ HINT: Use the Shortcuts app to automate.
+E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weight shortcut as a start.
+
+###### &nbsp;  
+###### &nbsp;  
+
 
 ## 📚 Help
 ### 🧭 Navigation
@@ -118,4 +151,3 @@
 
 ### ⚙️ Settings
 #### Upgrade, Feedback, Support and About sections for actions, information and settings for FastingReporter.
-
