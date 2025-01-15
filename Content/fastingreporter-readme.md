@@ -75,14 +75,14 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ### 🚗 Dashboard
 #### 🗒️ For iOS 16 and newer, it displays a central compact look at Fast, Fast List chart and Daily List chart.
 + When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), the Daily List chart is not displayed.
-+ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
-+ Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
 
 ###### &nbsp;  
 
 ##### 📊 Each chart
 + Is available for iOS 16 and newer.
 + Is sorted per the list sort.
++ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
 + Includes data from up to 3 days back from today.
     + [🚀 Upgrade to the ➕Plus subscription for up to 6 days back from today.](http://vraasnekkeri.com/apps/)
 
@@ -96,6 +96,8 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### 🧾 Each list
 + Is sorted by descending date by default.
 + Can be sorted in descending or ascending order by tapping on the list headers. Tap on a header again to toggle the sort order.
++ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
 + Includes data from up to 3 days back from today.
     + [🚀 Upgrade to the ➕Plus subscription for up to 6 days back from today.](http://vraasnekkeri.com/apps/)
 
@@ -106,7 +108,7 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 + Are sorted by descending date by default.
 + Can be sorted in descending or ascending order by tapping on the list headers. Tap on a header again to toggle the sort order.
 + For iOS 16 and newer, can display a chart.
-+ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 + Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
 + The chart is sorted per the list sort.
 + Includes data from up to 7 days back from today.
@@ -117,7 +119,8 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### 📊 All charts
 + Are available for iOS 16 and newer.
 + Are sorted per the list sort.
-+ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
 + Includes data from up to 7 days back from today.
     + [🚀 Upgrade to the ➕Plus subscription for up to 360 days back from today.](http://vraasnekkeri.com/apps/)
 
