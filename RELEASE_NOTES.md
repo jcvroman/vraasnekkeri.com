@@ -1,3 +1,7 @@
+# v1.2.62 - 2025-01-15
+## 📚 Documentation Changes
+- Update FastingReporter 1.3.0 README
+
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
