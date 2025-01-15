@@ -74,69 +74,80 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ### 🚗 Dashboard
 #### 🗒️ For iOS 16 and newer, it displays a central compact look at Fast, Fast List chart and Daily List chart.
-+ When the screen height is small (e.g. an iPhone in landscape mode), the Daily List chart is not displayed.
++ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), the Daily List chart is not displayed.
 + Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
 
 ###### &nbsp;  
 
-##### 📊 Each chart:
-+ Is sorted by descending date by default.
+##### 📊 Each chart
++ Is available for iOS 16 and newer.
 + Is sorted per the list sort.
-+ Includes data from 3 days back.
-    + [[🚀 Upgrade to ➕Plus: 6 days back.](http://vraasnekkeri.com/apps/)]
++ Includes data from up to 3 days back from today.
+    + [🚀 Upgrade to the ➕Plus subscription for up to 6 days back from today.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
-#### 🗒️ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List. When the screen height is small (e.g. an iPhone in landscape mode), the Daily List is not displayed.
+#### 🗒️ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List.
++ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), the Daily List is not displayed.
 
 ###### &nbsp;  
 
-##### 🧾 Each list:
+#### 🧾 Each list
 + Is sorted by descending date by default.
-+ Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
-+ Includes data from 3 days back.
-    + [[🚀 Upgrade to ➕Plus: 6 days back.](http://vraasnekkeri.com/apps/)]
++ Can be sorted in descending or ascending order by tapping on the list headers. Tap on a header again to toggle the sort order.
++ Includes data from up to 3 days back from today.
+    + [🚀 Upgrade to the ➕Plus subscription for up to 6 days back from today.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
-### ⏳ Fast
-#### The current fast. I.e. The time since the most recent carb entry (per it's date/time) in the Health app.
+### 🧾 Fast List, Entry List and Daily List
+#### 🧾 All lists
++ Are sorted by descending date by default.
++ Can be sorted in descending or ascending order by tapping on the list headers. Tap on a header again to toggle the sort order.
++ For iOS 16 and newer, can display a chart.
++ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ Use the days back button on the navigation bar to chose the number of days backward from today for data to be displayed in lists and charts.
++ The chart is sorted per the list sort.
++ Includes data from up to 7 days back from today.
+    + [🚀 Upgrade to the ➕Plus subscription for up to 360 days back from today.](http://vraasnekkeri.com/apps/)
+
+###### &nbsp;  
+
+#### 📊 All charts
++ Are available for iOS 16 and newer.
++ Are sorted per the list sort.
++ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ Includes data from up to 7 days back from today.
+    + [🚀 Upgrade to the ➕Plus subscription for up to 360 days back from today.](http://vraasnekkeri.com/apps/)
+
+###### &nbsp;  
+
+#### ⏳ Fast
+##### The current fast. I.e. The time since the most recent carb entry (per it's date/time) in the Health app.
 + All entered carb values are included (e.g. 0, 1, 10, 100).
 + It is displayed as a time (e.g. 14h 22m) and on a progress bar of 24 hours.
 
 ###### &nbsp;  
 
-### 🧾 Fast List
-#### A list of the longest fast ending on a date (e.g. it may start on a previous date). For a date, it includes a search back through the previous date(s) until a carb entry is found.
-+ A date column and fast column. When the screen height is small (e.g. an iPhone in landscape mode), a fast end column is displayed too.
-+ Is sorted by descending date by default.
-+ Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
+#### 🧾 Fast List
+##### A list of the longest fast ending on a date (e.g. it may start on a previous date). For a date, it includes a search back through the previous date(s) until a carb entry is found.
++ A date column and fast column.
++ When the screen height is small (e.g. an iPhone in landscape mode), a fast end column is displayed too.
 
 ###### &nbsp;  
 
-### 🧾 Entry List
-#### A list of the carbs entered on that date.
-+ A date column and carbs column. When the screen height is small (e.g. an iPhone in landscape mode), a fast column is displayed too.
-+ Is sorted by descending date by default.
-+ Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
+#### 🧾 Entry List
+##### A list of the carbs entered on that date.
++ A date column and carbs column.
++ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast column is also displayed.
 
 ###### &nbsp;  
 
-### 🧾 Daily List
-#### A list of the total carbs for that date.
-+ A date column and carbs column. When the screen height is small (e.g. an iPhone in landscape mode), a day column is displayed too.
-+ Is sorted by descending date by default.
-+ Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
-
-###### &nbsp;  
-
-### 🧾 All lists
-+ Can be sorted (descending and ascending) by tapping on the list headers. Tap again on a header to toggle the sort order.
-+ For iOS 16 and newer, a chart can be viewed.
-+ Toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
-+ The chart is sorted per the list sort.
-+ Includes data from 7 days back.
-    + [[🚀 Upgrade to ➕Plus: 180 days back.](http://vraasnekkeri.com/apps/)]
+#### 🧾 Daily List
+##### A list of the total carbs for that date.
++ A date column and carbs column.
++ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a day column is also displayed.
 
 ###### &nbsp;  
 
