@@ -82,9 +82,9 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 + Is available for iOS 16 and newer.
 + Is sorted per the list sort.
 + For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
-+ Use the days back button on the navigation bar to choose the number of days backward from today for data to be displayed in lists and charts.
-+ Includes data from up to 3 days back from today.
-    + [🚀 Upgrade to the ➕Plus subscription for up to 6 days back from today.](http://vraasnekkeri.com/apps/)
++ Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
++ Includes data for a date range 📆 of 1 to 3 days to now.
+    + [🚀 Upgrade to the ➕Plus subscription for 1 to 6 days to now or a selected date.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
@@ -94,25 +94,24 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ###### &nbsp;  
 
 #### 🧾 Each list
-+ Is sorted by descending date by default.
-+ Can be sorted in descending or ascending order by tapping on the list headers. Tap on a header again to toggle the sort order.
++ Is sorted by ascending date by default.
++ Can be sorted in ascending or descending order by tapping on the list headers. Tap on a header again to toggle the sort order.
 + For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
-+ Use the days back button on the navigation bar to choose the number of days backward from today for data to be displayed in lists and charts.
-+ Includes data from up to 3 days back from today.
-    + [🚀 Upgrade to the ➕Plus subscription for up to 6 days back from today.](http://vraasnekkeri.com/apps/)
++ Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
++ Includes data for a date range 📆 of 1 to 3 days to now.
+    + [🚀 Upgrade to the ➕Plus subscription for 1 to 6 days to now or a selected date.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
 ### 🧾 Fast List, Entry List and Daily List
 #### 🧾 All lists
-+ Are sorted by descending date by default.
-+ Can be sorted in descending or ascending order by tapping on the list headers. Tap on a header again to toggle the sort order.
++ Are sorted by ascending date by default.
++ Can be sorted in ascending or descending order by tapping on the list headers. Tap on a header again to toggle the sort order.
 + For iOS 16 and newer, can display a chart.
 + For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
-+ Use the days back button on the navigation bar to choose the number of days backward from today for data to be displayed in lists and charts.
-+ The chart is sorted per the list sort.
-+ Includes data from up to 7 days back from today.
-    + [🚀 Upgrade to the ➕Plus subscription for up to 365 days back from today.](http://vraasnekkeri.com/apps/)
++ Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
++ Includes data for a date range 📆 of 1 to 7 days to now.
+    + [🚀 Upgrade to the ➕Plus subscription for 1 to 365 days to now or a selected date.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
@@ -120,9 +119,9 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 + Are available for iOS 16 and newer.
 + Are sorted per the list sort.
 + For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
-+ Use the days back button on the navigation bar to choose the number of days backward from today for data to be displayed in lists and charts.
-+ Includes data from up to 7 days back from today.
-    + [🚀 Upgrade to the ➕Plus subscription for up to 365 days back from today.](http://vraasnekkeri.com/apps/)
++ Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
++ Includes data for a date range 📆 of 1 to 7 days to now.
+    + [🚀 Upgrade to the ➕Plus subscription for 1 to 365 days to now or a selected date.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
@@ -136,7 +135,8 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### 🧾 Fast List
 ##### A list of the longest fast ending on a date (e.g. it may start on a previous date). For a date, it includes a search back through the previous date(s) until a carb entry is found.
 + A date column and fast column.
-+ When the screen height is small (e.g. an iPhone in landscape mode), a fast end column is displayed too.
++ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast end column is also displayed.
++ The chart is sorted per the list sort.
 
 ###### &nbsp;  
 
@@ -144,6 +144,7 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ##### A list of the carbs entered on that date.
 + A date column and carbs column.
 + When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast column is also displayed.
++ The chart is not sorted per the list sort. It is sorted per the day of the year.
 
 ###### &nbsp;  
 
@@ -151,6 +152,27 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ##### A list of the total carbs for that date.
 + A date column and carbs column.
 + When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a day column is also displayed.
++ The chart is sorted per the list sort.
+
+###### &nbsp;  
+
+### 📆 Date Range Sheet
++ Use the date range button on the navigation bar to bring up the Date Range Sheet.
++ Use the Date Range Sheet to set the date range for data displayed in lists and charts.
++ Use the Date Range menu to set the Start Date (based on the Date Range and End Date).
++ Use the Start Date date picker to set the Start Date (limited by the End Date and valid date range).
++ Tap the Apply Date Range button to apply the date range changes.
++ Tap outside of the sheet to not apply the date range changes.
+
+###### &nbsp;  
+
+#### [🚀 Upgrade to the ➕Plus subscription for the following features](http://vraasnekkeri.com/apps/)
++ Toggle the Set to Now button to off to enable the End Date date picker. End Date is end of day for the selected date.
++ Toggle the Set to Now button to on to disable the End Date date picker. Now is the End Date date and time.
++ When the End Date date picker is enabled, follow this sequence of changes for date range changes:
+1. Set the End Date.
+2. Set the Date Range or Start Date.
+3. Set the Date Range and Start Date.
 
 ###### &nbsp;  
 
