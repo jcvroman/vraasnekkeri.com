@@ -187,3 +187,10 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ### ⚙️ Settings
 #### Upgrade, Feedback, Support and About sections for actions, information and settings for FastingReporter.
+
+###### &nbsp;  
+
+### ℹ️ Miscellaneous
+#### ℹ️ iOS and iPadOS Versions Supported
++ iOS 15.0 or Later
++ iPadOS 17.0 or Later (HealthKit introduced in iPadOS 17.0)
