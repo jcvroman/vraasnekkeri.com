@@ -1,7 +1,7 @@
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
-# Release Notes for v1.2.69
+# Release Notes for v1.2.71
 ## 🔨 Improvements
 - Apps: Update FastingReporter version
 - #111: Icons: Update app and website logos
