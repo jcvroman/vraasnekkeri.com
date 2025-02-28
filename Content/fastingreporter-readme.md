@@ -73,22 +73,22 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ###### &nbsp;  
 
 ### 🚗 Dashboard
-#### 🗒️ For iOS 16 and newer, it displays a central compact look at Fast, Fast List chart and Daily List chart.
+#### 🗒️ For iOS 16 and later, compact look at the current fast, and a chart or list of Fast List and Daily List.
 + When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), the Daily List chart is not displayed.
 
 ###### &nbsp;  
 
 ##### 📊 Each chart
-+ Is available for iOS 16 and newer.
++ Is available for iOS 16 and later.
 + Is sorted per the list sort.
-+ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ For iOS 16 and later, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 + Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
 + Includes data for a date range 📆 of 1 to 3 days to now.
     + [🚀 Upgrade to the ➕Plus subscription for 1 to 6 days to now or a selected date.](http://vraasnekkeri.com/apps/)
 
 ###### &nbsp;  
 
-#### 🗒️ For iOS 15, it displays a central compact look at Fast, Fast List and Daily List.
+#### 🗒️ For iOS 15, a compact look at the current fast, and a list of Fast List and Daily List.
 + When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), the Daily List is not displayed.
 
 ###### &nbsp;  
@@ -96,7 +96,7 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### 🧾 Each list
 + Is sorted by ascending date by default.
 + Can be sorted in ascending or descending order by tapping on the list headers. Tap on a header again to toggle the sort order.
-+ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ For iOS 16 and later, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 + Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
 + Includes data for a date range 📆 of 1 to 3 days to now.
     + [🚀 Upgrade to the ➕Plus subscription for 1 to 6 days to now or a selected date.](http://vraasnekkeri.com/apps/)
@@ -107,8 +107,8 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### 🧾 All lists
 + Are sorted by ascending date by default.
 + Can be sorted in ascending or descending order by tapping on the list headers. Tap on a header again to toggle the sort order.
-+ For iOS 16 and newer, can display a chart.
-+ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ For iOS 16 and later, can display a chart.
++ For iOS 16 and later, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 + Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
 + Includes data for a date range 📆 of 1 to 7 days to now.
     + [🚀 Upgrade to the ➕Plus subscription for 1 to 365 days to now or a selected date.](http://vraasnekkeri.com/apps/)
@@ -116,9 +116,9 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ###### &nbsp;  
 
 #### 📊 All charts
-+ Are available for iOS 16 and newer.
++ Are available for iOS 16 and later.
 + Are sorted per the list sort.
-+ For iOS 16 and newer, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
++ For iOS 16 and later, toggle between chart and list via the list or chart button on the navigation bar (i.e. chart button when in list view, list button when in chart view).
 + Use the date range button on the navigation bar to set the date range (via the Date Range Sheet) for data displayed in lists and charts.
 + Includes data for a date range 📆 of 1 to 7 days to now.
     + [🚀 Upgrade to the ➕Plus subscription for 1 to 365 days to now or a selected date.](http://vraasnekkeri.com/apps/)
@@ -126,39 +126,41 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ###### &nbsp;  
 
 #### ⏳ Fast
-##### The current fast. I.e. The time since the most recent carb entry (per it's date/time) in the Health app.
+##### The current fast, which is the time elapsed since the last carb entry in the Health app.
 + All entered carb values are included (e.g. 0, 1, 10, 100).
 + It is displayed as a time (e.g. 14h 22m) and on a progress bar of 24 hours.
 
 ###### &nbsp;  
 
 #### 🧾 Fast List
-##### A list of the longest fast ending on a date (e.g. it may start on a previous date). For a date, it includes a search back through the previous date(s) until a carb entry is found.
-+ A date column and fast column.
-+ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast end column is also displayed.
+##### A list or chart of the longest fast ending for each day over a date range.
++ It may start on a previous date.
++ For a date, it includes a search back through the previous date(s) until a carb entry is found.
++ For the list, a date column and fast column.
++ For the list, when the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast end column is also displayed.
 + The chart is sorted per the list sort.
 
 ###### &nbsp;  
 
 #### 🧾 Entry List
-##### A list of the carbs entered on that date.
-+ A date column and carbs column.
-+ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast column is also displayed.
+##### A list or chart of the carbs entered for each day over a date range.
++ For the list, a date column and carbs column.
++ For the list, when the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast column is also displayed.
 + The chart is not sorted per the list sort. It is sorted per the day of the year.
 
 ###### &nbsp;  
 
 #### 🧾 Daily List
-##### A list of the total carbs for that date.
-+ A date column and carbs column.
-+ When the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a day column is also displayed.
+##### A list or chart of the total carbs entered for each day over a date range.
++ For the list, a date column and carbs column.
++ For the list, when the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a day column is also displayed.
 + The chart is sorted per the list sort.
 
 ###### &nbsp;  
 
 ### 📆 Date Range Sheet
+#### Set the date range for data displayed in lists and charts.
 + Use the date range button on the navigation bar to bring up the Date Range Sheet.
-+ Use the Date Range Sheet to set the date range for data displayed in lists and charts.
 + Use the Date Range menu to set the Start Date (based on the Date Range and End Date).
 + Use the Start Date date picker to set the Start Date (limited by the End Date and valid date range).
 + Tap the Apply Date Range button to apply the date range changes.
@@ -166,7 +168,7 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ###### &nbsp;  
 
-#### [🚀 Upgrade to the ➕Plus subscription for the following features](http://vraasnekkeri.com/apps/)
+##### [🚀 Upgrade to the ➕Plus subscription for the following features](http://vraasnekkeri.com/apps/)
 + Toggle the Set to Now button to off to enable the End Date date picker. End Date is end of day for the selected date.
 + Toggle the Set to Now button to on to disable the End Date date picker. Now is the End Date date and time.
 + When the End Date date picker is enabled, follow this sequence of changes for date range changes:
@@ -192,5 +194,5 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ### ℹ️ Miscellaneous
 #### ℹ️ iOS and iPadOS Versions Supported
-+ iOS 15.0 or Later.
-+ iPadOS 17.0 or Later (Health introduced in iPadOS 17.0).
++ iOS 15.0 or later.
++ iPadOS 17.0 or later (Health introduced in iPadOS 17.0).
