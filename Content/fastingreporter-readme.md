@@ -192,5 +192,5 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ### ℹ️ Miscellaneous
 #### ℹ️ iOS and iPadOS Versions Supported
-+ iOS 15.0 or Later
-+ iPadOS 17.0 or Later (HealthKit introduced in iPadOS 17.0)
++ iOS 15.0 or Later.
++ iPadOS 17.0 or Later (Health introduced in iPadOS 17.0).
