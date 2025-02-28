@@ -1,11 +1,7 @@
-# v1.2.72 - 2025-02-28
-## 📚 Documentation Changes
-- Update FastingReporter 1.3.0 README
-
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
-# Release Notes for v1.2.71
+# Release Notes for v1.2.73
 ## 🔨 Improvements
 - Apps: Update FastingReporter version
 - #111: Icons: Update app and website logos
