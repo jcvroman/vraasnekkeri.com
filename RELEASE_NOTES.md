@@ -1,3 +1,7 @@
+# v1.2.77 - 2025-04-08
+## 🔨 Improvements
+- Update privacy policy for FastingReporter
+
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
