@@ -17,7 +17,7 @@ The App accesses your device's HealthKit records in order to prepare statistics 
 The App uses Apple as a payment provider. Apple's Privacy Policy can be found [here](https://www.apple.com/legal/privacy/en-ww/).
 
 ## In-App Purchases & Subscription Data
-The App uses RevenueCat to manage in-app purchases and subscriptions. RevenueCat may collect anonymous purchase history, subscription status, device type, app version, and locale to help us determine your access to premium content. No personally identifiable information is collected unless explicitly provided by the user. RevenueCat’s Privacy Policy can be found [here](https://www.revenuecat.com/privacy/)
+The App uses RevenueCat to manage in-app purchases and subscriptions. RevenueCat may collect anonymous purchase history, subscription status, device type, app version, and locale (e.g. to help us determine your access to Plus features in the App). No personally identifiable information is collected unless explicitly provided by the user. RevenueCat’s Privacy Policy can be found [here](https://www.revenuecat.com/privacy/).
 
 ## Email
 If you email us for support or other feedback, the emails and email addresses will be retained. The email addresses will only be used to reply to the concerns or suggestions raised and will never be used for any marketing purpose.
@@ -26,6 +26,7 @@ If you email us for support or other feedback, the emails and email addresses wi
 We may update our privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page. You are advised to review the privacy policy periodically for any changes. Changes to this privacy policy are effective when they are posted on this page.
 
 ### Summary of Changes
++ 04/09/2025: In In-App Purchases & Subscription Data section, update RevenueCat info.
 + 04/08/2025: Update title. Add In-App Purchases & Subscription Data section with RevenueCat info. Add info about anonymous analytics from Apple for developers.
 + 10/19/2022: First published.
 
