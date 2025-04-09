@@ -1,3 +1,9 @@
+# v1.2.80 - 2025-04-09
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.79 - 2025-04-09
 ## 🔨 Improvements
 - Update privacy policy for FastingReporter
