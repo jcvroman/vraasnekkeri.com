@@ -1,3 +1,11 @@
+# v1.2.81 - 2025-04-11
+## 🔨 Improvements
+- FastingReporter: Add 1.3.0 released post and app updates
+
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+
 # v1.2.80 - 2025-04-09
 ## 🧹 Chores
 - Update CHANGELOG.md
