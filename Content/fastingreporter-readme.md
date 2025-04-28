@@ -4,7 +4,9 @@
 
 ## 📖 About
 ### FastingReporter
-#### Track your fasts by entering your carbohydrates (carbs) consumed into the Health app.
+#### Track your fasts by adding your carbohydrates (carbs) consumed into the Health app.
+##### Add your carbs to the Health app via FastingReporter.
+##### The Health data is available via iCloud for FastingReporter on all of your iOS and iPad devices.
 
 ###### &nbsp;  
 
@@ -32,35 +34,6 @@
 
 ##### Have some feedback or a feature request? Please take a look at our [📌 FAQ](http://vraasnekkeri.com/faq/).
 ###### Still have some feedback or a feature request? Please contact us at [✉️ Email Support](mailto:support@vraasnekkeri.com?subject=FastingReporter%20Support%3A%20Feedback%7CFeature%7CIssue%3A&body=Please%20describe%20your%20feedback,%20feature%20request%20or%20issue%20below.%0A----------------------------------%0A%20).
-
-###### &nbsp;  
-###### &nbsp;  
-
-
-## ❤️ Health App Help
-### 🔐 Health App Access
-#### 🗒️ Does FastingReporter have access to read Carbohydrates in the Health app?
-1. During your initial launch of FastingReporter, was the Health Access screen displayed?
-2. Did you allow FastingReporter to read Carbohydrates?
-3. If you did not allow FastingReporter to read Carbohydrates, you'll need to go to Settings / Health / Data Access & Devices / FastingReporter, and toggle on allow FastingReporter to read Carbohydrates. FastingReporter cannot report on your data entered in the Health app without this access.
-
-###### &nbsp;  
-
-### 💌 Health App Usage
-#### 🗒️ How to enter carbs in the Health app.
-1. Launch the Health app.
-2. Tap on the Browse button.
-3. Tap on the Nutrition row.
-4. Tap on the Carbohydrates row.
-5. Tap on the Add Data button.
-6. Enter the number of carbs.
-7. Adjust the Date and Time, if necessary.
-8. Tap on the Add button.
-
-###### &nbsp;  
-
-##### ⚠️ HINT: Use the Shortcuts app to automate.
-E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weight shortcut as a start.
 
 ###### &nbsp;  
 ###### &nbsp;  
@@ -126,8 +99,8 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 ###### &nbsp;  
 
 #### ⏳ Fast
-##### The current fast, which is the time elapsed since the last carb entry in the Health app.
-+ All entered carb values are included (e.g. 0, 1, 10, 100).
+##### The current fast, which is the time elapsed since the last carbs entry in the Health app.
++ All entered carbs are included (e.g. 0, 1, 10, 100).
 + It is displayed as a time (e.g. 14h 22m) and on a progress bar of 24 hours.
 
 ###### &nbsp;  
@@ -135,7 +108,7 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### 🧾 Fast List
 ##### A list or chart of the longest fast ending for each day over a date range.
 + It may start on a previous date.
-+ For a date, it includes a search back through the previous date(s) until a carb entry is found.
++ For a date, it includes a search back through the previous date(s) until a carbs entry is found.
 + For the list, a date column and fast column.
 + For the list, when the screen width is greater and the screen height is smaller (for instance, in landscape mode on an iPhone), a fast end column is also displayed.
 + The chart is sorted per the list sort.
@@ -158,9 +131,19 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 
 ###### &nbsp;  
 
+### ➕ Add Carbs Sheet
+#### 🗒️ How to add carbs via FastingReporter into the Health app.
+1. Tap on the add carbs button ➕ on the navigation bar to bring up the Add Carbs Sheet.
+2. Use the Date date picker to set a date other than the default.
+3. Use the Time time picker to set a time other than the default.
+4. In the Carbs field, enter the number of carbs.
+5. Tap the Add button to add the carbs entry.
+
+###### &nbsp;  
+
 ### 📆 Date Range Sheet
-#### Set the date range for data displayed in lists and charts.
-+ Use the date range button on the navigation bar to bring up the Date Range Sheet.
+#### 🗒️ Set the date range for data displayed in lists and charts.
++ Tap on the date range button 📆 on the navigation bar to bring up the Date Range Sheet.
 + Use the Date Range menu to set the Start Date (based on the Date Range and End Date).
 + Use the Start Date date picker to set the Start Date (limited by the End Date and valid date range).
 + Tap the Apply Date Range button to apply the date range changes.
@@ -196,3 +179,34 @@ E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weigh
 #### ℹ️ iOS and iPadOS Versions Supported
 + iOS 15.0 or later.
 + iPadOS 17.0 or later (Health introduced in iPadOS 17.0).
+
+###### &nbsp;  
+###### &nbsp;  
+
+
+## ❤️ Health App Help
+### 🔐 Health App Access
+#### 🗒️ Does FastingReporter have access to write and read Carbohydrates in the Health app?
++ During your initial launch of FastingReporter, was the Health Access screen displayed?
++ Did you allow FastingReporter to write and read Carbohydrates?
++ If you did not allow FastingReporter to write and read Carbohydrates, you'll need to go to Settings > Apps > Health > Data Access & Devices > FastingReporter, and toggle on allow FastingReporter to write and read Carbohydrates.
++ Without write access, FastingReporter cannot add Carbohydrates data to the Health app.
++ Without read access, FastingReporter cannot report on your Carbohydrates data entered in the Health app.
+
+###### &nbsp;  
+
+### 💌 Health App Usage
+#### 🗒️ How to add carbs via the Health app.
+1. Launch the Health app.
+2. Tap on the Browse button.
+3. Tap on the Nutrition row.
+4. Tap on the Carbohydrates row.
+5. Tap on the Add Data button.
+6. Enter the number of carbs.
+7. Adjust the Date and Time, if necessary.
+8. Tap on the Add button.
+
+###### &nbsp;  
+
+##### ⚠️ HINT: Use the Shortcuts app to automate.
+E.g. In the Shortcuts Gallery, in the Stay Healthy section, use the Log My Weight shortcut as a start.

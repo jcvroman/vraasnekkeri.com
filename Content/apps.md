@@ -1,7 +1,9 @@
 # Apps
-## [<img src="../../images/fastingreporter-logo.png" width="128" height="128" />](/fastingreporter-readme) [FastingReporter 1.3.0](/fastingreporter-readme) 
+## [<img src="../../images/fastingreporter-logo.png" width="128" height="128" />](/fastingreporter-readme) [FastingReporter 1.4.0](/fastingreporter-readme) 
 
-### Track your fasts by entering your carbohydrates (carbs) consumed into the Health app.
+#### Track your fasts by adding your carbohydrates (carbs) consumed into the Health app.
+##### Add your carbs to the Health app via FastingReporter.
+##### The Health data is available via iCloud for FastingReporter on all of your iOS and iPad devices.
 
 ##  
 
