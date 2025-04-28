@@ -1,3 +1,7 @@
+# v1.2.83 - 2025-04-28
+## 🔨 Improvements
+- FastingReporter: Add 1.4.0 released post and app updates
+
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
