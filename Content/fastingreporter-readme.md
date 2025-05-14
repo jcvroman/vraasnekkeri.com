@@ -4,9 +4,9 @@
 
 ## 📖 About
 ### FastingReporter
-#### Track your fasts by adding your carbohydrates (carbs) consumed into the Health app.
-##### Add your carbs to the Health app via FastingReporter.
-##### The Health data is available via iCloud for FastingReporter on all of your iOS and iPad devices.
+#### Track your fasts by adding your carbohydrates (carbs) consumed into ❤️ Apple Health.
+##### Add your carbs to ❤️ Apple Health via FastingReporter.
+##### ❤️ Apple Health data is available via iCloud for FastingReporter on all of your iOS and iPadOS devices.
 
 ###### &nbsp;  
 
@@ -99,7 +99,7 @@
 ###### &nbsp;  
 
 #### ⏳ Fast
-##### The current fast, which is the time elapsed since the last carbs entry in the Health app.
+##### The current fast, which is the time elapsed since the last carbs entry in the ❤️ Health app.
 + All entered carbs are included (e.g. 0, 1, 10, 100).
 + It is displayed as a time (e.g. 14h 22m) and on a progress bar of 24 hours.
 
@@ -132,7 +132,7 @@
 ###### &nbsp;  
 
 ### ➕ Add Carbs Sheet
-#### 🗒️ How to add carbs via FastingReporter into the Health app.
+#### 🗒️ How to add carbs via FastingReporter into the ❤️ Health app.
 1. Tap on the add carbs button ➕ on the navigation bar to bring up the Add Carbs Sheet.
 2. Use the Date date picker to set a date other than the default.
 3. Use the Time time picker to set a time other than the default.
@@ -186,7 +186,7 @@
 
 ## ❤️ Health App Help
 ### 🔐 Health App Access
-#### 🗒️ Does FastingReporter have access to write and read Carbohydrates in the Health app?
+#### 🗒️ Does FastingReporter have access to write and read Carbohydrates in the ❤️ Health app?
 + During your initial launch of FastingReporter, was the Health Access screen displayed?
 + Did you allow FastingReporter to write and read Carbohydrates?
 + If you did not allow FastingReporter to write and read Carbohydrates, you'll need to go to Settings > Apps > Health > Data Access & Devices > FastingReporter, and toggle on allow FastingReporter to write and read Carbohydrates.
@@ -195,9 +195,9 @@
 
 ###### &nbsp;  
 
-### 💌 Health App Usage
-#### 🗒️ How to add carbs via the Health app.
-1. Launch the Health app.
+### ❤️ Health App Usage
+#### 🗒️ How to add carbs via the ❤️ Health app.
+1. Launch the ❤️ Health app.
 2. Tap on the Browse button.
 3. Tap on the Nutrition row.
 4. Tap on the Carbohydrates row.
