@@ -1,14 +1,6 @@
-# v1.2.87 - 2025-05-21
-## 🔨 Improvements
-- FastingReporter: Update 1.4.21 released app updates
-
 # vraasnekkeri.com
 ## Vråsnekkeri website at [vraasnekkeri.com](https://www.vraasnekkeri.com).
 
-# Release Notes for v1.2.86
+# Release Notes for v1.2.88
 ## 🔨 Improvements
-- Apps: Update FastingReporter version
-- FastingReporter: Add 1.4.21 released post and app updates
-
-## 📚 Documentation Changes
-- #127: FastingReporter: Update README
+- FastingReporter: Update 1.4.21 released app updates
