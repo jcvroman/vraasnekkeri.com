@@ -1,3 +1,9 @@
+# v1.2.88 - 2025-05-21
+## 🧹 Chores
+- Update CHANGELOG.md
+- Update RELEASE_NOTES.md
+- Manually tidy up RELEASE_NOTES.md
+
 # v1.2.87 - 2025-05-21
 ## 🔨 Improvements
 - FastingReporter: Update 1.4.21 released app updates
