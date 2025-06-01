@@ -3,10 +3,51 @@
 ###### &nbsp;  
 
 ## 📖 About
-### FastingReporter
-#### Track your fasts by adding your carbohydrates (carbs) consumed into ❤️ Apple Health.
-##### Add your carbs to ❤️ Apple Health via FastingReporter.
-##### ❤️ Apple Health data is available via iCloud for FastingReporter on all of your iOS and iPadOS devices.
+### Fast Tracker: FastingReporter
+#### Understand your fasts. Optimize your health.
+
+###### &nbsp;  
+
+#### Fast Tracker: FastingReporter is the ultimate companion for intermittent fasting enthusiasts who use the ❤️ Apple Health app to track their nutrition. This intuitive, data-rich app helps you monitor your carb intake and fasting windows with precision—so you can stay focused, motivated, and informed.
+
+###### &nbsp;  
+
+#### 🌟 Why Fast Tracker: FastingReporter?
+- Stay on Track Automatically: Your fast is calculated based on your last carbohydrate intake from the ❤️ Health app. No need to manually log fasts!
+- Gain Insight into Your Progress: Instantly see how your fasting patterns and eating habits evolve over time.
+- Make Smarter Choices: Visualize how daily carb intake impacts your fasting success—and adjust accordingly.
+
+###### &nbsp;  
+
+📊 Key Features:
+- Dashboard: A sleek overview of your current fast and quick access to your fasting and carb data.
+- Fast: See how long you’ve been fasting, calculated automatically from your last carb entry.
+- Fast List: View the longest fast ending each day over your selected date range—in list or chart format.
+- Entry List: Explore every carb entry per day, to better understand your eating habits.
+- Daily List: Monitor total daily carb intake over time to spot trends and stay accountable.
+- Interactive Charts (iOS 16+): Visualize data trends with dynamic charts.
+- Sortable Lists: Tap headers to sort any list ascending or descending for deeper analysis.
+- Add Carbs Sheet: Quickly add carb entries directly into the ❤️ Health app without switching apps.
+- Date Range Sheet: Customize your view with adjustable date ranges for any list or chart.
+- Fast Levels: Visual cues help you gauge your fasting quality at a glance.
+- Help & Onboarding: Built-in guidance ensures you get the most out of every feature.
+- Settings: Upgrade options, feedback, support, and more—right at your fingertips.
+
+###### &nbsp;  
+
+🔒 Private by Design
+- Your data stays yours: All health data is stored locally on your device using ❤️ Apple Health.
+- iCloud Sync: ❤️ Apple Health data is accessible across your iOS and iPadOS devices.
+- No external servers: FastingReporter never stores your data in the cloud outside of ❤️ Apple Health’s ecosystem.
+
+###### &nbsp;  
+
+Whether you’re doing time-restricted eating, keto, or simply watching your carbs, Fast Tracker: FastingReporter gives you the tools and data you need to fast smarter and feel better.
+
+###### &nbsp;  
+
+Privacy Policy: https://www.vraasnekkeri.com/fastingreporter-privacy-policy
+Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula
 
 ###### &nbsp;  
 
@@ -190,8 +231,8 @@
 + During your initial launch of FastingReporter, was the Health Access screen displayed?
 + Did you allow FastingReporter to write and read Carbohydrates?
 + If you did not allow FastingReporter to write and read Carbohydrates, you'll need to go to Settings > Apps > Health > Data Access & Devices > FastingReporter, and toggle on allow FastingReporter to write and read Carbohydrates.
-+ Without write access, FastingReporter cannot add Carbohydrates data to the Health app.
-+ Without read access, FastingReporter cannot report on your Carbohydrates data entered in the Health app.
++ Without write access, FastingReporter cannot add Carbohydrates data to the ❤️ Health app.
++ Without read access, FastingReporter cannot report on your Carbohydrates data entered in the ❤️ Health app.
 
 ###### &nbsp;  
 
